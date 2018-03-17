@@ -26,6 +26,6 @@ app.get('/contact', function(req,res){
 	res.render('contact')
 })
 
-app.listen(3002, function(){
-	console.log('I\'m listening')
+app.listen(3007, function(){
+	console.log('I am listening')
 })

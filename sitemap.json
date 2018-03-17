@@ -82,7 +82,7 @@
 {
 	"group": "code",
 	"project": "timelist",
-	"bckimg": "/images/code/listlift.png",
+	"bckimg": "/images/cpro/listlift.png",
 	"title": "24h to-do timelist",
 	"captions": "yes",
 	"date": "January 2018",
@@ -91,7 +91,7 @@
 {
 	"group": "code",
 	"project": "BWT",
-	"bckimg": "/images/code/gal2.png",
+	"bckimg": "/images/cpro/gal2.png",
 	"title": "Bussines Website Template",
 	"captions": "Simple Website built on week two on the course",
 	"date": "November 2017",
@@ -100,7 +100,7 @@
 {
 	"group": "code",
 	"project": "$(this)",
-	"bckimg": "/images/code/taugrid.png",
+	"bckimg": "/images/cpro/taugrid.png",
 	"title": "This is it",
 	"captions": "Gottcha",
 	"date": "March 2018",

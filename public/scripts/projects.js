@@ -9,4 +9,14 @@ $(document).ready(function(){
 		</ul>
 		`)
 
+	$('#visuals').on('click', function(){
+		$('ul.code').fadeOut(400)
+		$('ul.visuals').toggle(400)
+	})
+
+	$('#code').on('click', function(){
+		$('ul.visuals').fadeOut(400)
+		$('ul.code').toggle(400)
+	})
+
 })

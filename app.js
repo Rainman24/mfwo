@@ -18,13 +18,21 @@ app.get('/', function(req,res){
 		var projects = JSON.parse(data)
 
 		res.render('home',{
-			content: projects
+			cont: projects
 		})
 	})
 })
 
 app.get('/projects', function(req,res){
-	res.render('projects')
+	fs.readFile('sitemap.json', function(err,data){
+		if(err) {throw err}
+	
+		var projects = JSON.parse(data)
+
+		res.render('projects',{
+			cont: projects
+		})
+	})
 })
 
 app.get('/about', function(req,res){

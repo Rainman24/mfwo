@@ -26,6 +26,24 @@ html
 			div.vertical#right
 
 			div.display
+				
+				ul.visuals(style={display:'none'})
+
+					each item in cont
+
+						if item.group=="visual"
+
+							li(style=`background-image:url(${item.bckimg})`)
+								a(href=item.hreff) #{item.project}
+
+				ul.code(style={display:'none'})
+
+					each item in cont
+
+						if item.group=="code"
+
+							li(style=`background-image:url(${item.bckimg})`)
+								a(href=item.hreff) #{item.project}
 
 				block routes
 

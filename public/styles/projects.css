@@ -1,0 +1,12 @@
+div.test {
+	grid-column: 1/4;
+	grid-row: 1/4;
+}
+
+.test p {
+	display: block;
+	color: grey;
+	margin: 40 auto;
+	width: 70%;
+	height: 12vh;
+}

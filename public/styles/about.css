@@ -1,0 +1,32 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+    box-shadow: inset 1px 1px 5px rgba(240, 240, 240, 0.1); 
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+	box-shadow: inset 1px 1px 4px rgba(140, 140, 140, 0.3);
+}
+
+div.about {
+	grid-column: 1/4;
+	grid-row: 1/4;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+
+.about h4 {
+	text-indent: 10%;
+	padding-top: 30;
+}
+
+.about p {
+	padding: 20;
+}
+
+.res, .edu, .skills {
+	overflow-y: auto;
+}

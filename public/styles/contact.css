@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.modal {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background: rgba(0,0,0,0.6);
+}
+
+.contact {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+
+.contact ul {
+	grid-column: 2/3;
+	grid-row: 2/3;
+	border: 1px solid black;
+	background: white;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.contact li {
+	padding: 20;
+	text-indent: 10%;
+}
+
+.contact li:nth-child(2) {
+	margin-top: 10;
+}
+
+#modx {
+	float: right;
+	border: 0;
+	cursor: pointer;
+	font-size: 2vw;
+	font-family: Helvetica;
+	background: rgba(250,250,250,0);
+}

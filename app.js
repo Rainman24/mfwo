@@ -11,7 +11,16 @@ app.set('view engine', 'pug')
 app.set('views', './views')
 
 app.get('/', function(req,res){
-	res.render('home')
+
+	fs.readFile('sitemap.json', function(err,data){
+		if(err) {throw err}
+	
+		var projects = JSON.parse(data)
+
+		res.render('home',{
+			content: projects
+		})
+	})
 })
 
 app.get('/projects', function(req,res){
@@ -20,10 +29,6 @@ app.get('/projects', function(req,res){
 
 app.get('/about', function(req,res){
 	res.render('about')
-})
-
-app.get('/contact', function(req,res){
-	res.render('contact')
 })
 
 app.listen(3007, function(){

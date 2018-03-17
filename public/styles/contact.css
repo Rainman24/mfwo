@@ -17,7 +17,7 @@ body {
 	background: rgba(0,0,0,0.6);
 }
 
-.contact {
+.ctab {
 	width: 100%;
 	height: 100%;
 	display: grid;
@@ -25,7 +25,7 @@ body {
 	grid-template-rows: repeat(3, 1fr);
 }
 
-.contact ul {
+.ctab ul {
 	grid-column: 2/3;
 	grid-row: 2/3;
 	border: 1px solid black;
@@ -35,12 +35,12 @@ body {
 	list-style: none;
 }
 
-.contact li {
+.ctab li {
 	padding: 20;
 	text-indent: 10%;
 }
 
-.contact li:nth-child(2) {
+.ctab li:nth-child(2) {
 	margin-top: 10;
 }
 

@@ -1,0 +1,43 @@
+[
+  {
+    "resume": [
+      "This website is built as a prototype portfolio of projects made during and after my bachelor study at Gerrit Rietveld Academy. In the end of October 2017 I have started attending an intensive FullStack Javascript Development course and the <i>Code</i> tab has visual references to some of the projects that I’ve done during and after completing the course on January 19th this year. The website will be regularly updated with more visual materials, descriptions of the projects and extra functionality.",
+      "Currently I am looking for a Junior Web Developer position in Amsterdam, if anything presented on this websites strikes your interest, feel free lookup my GitHub account or contact me."
+    ]
+  },
+  {
+    "education": [
+      "2009 Saint Martins, London - Fine Art Summer Course",
+      "2010-2016 Gerrit Rietveld Academie",
+      "2012-2013 Fine Arts Department",
+      "2013-2014 Graphic Design",
+      "2014-2016 Audio Visual Department",
+      "Nominee for the GRA Award 2016",
+      "Group Show SELECTED at Looiersgracht 60",
+      "October 2017 NYCDA Intensive Javascript Full Stack Developer Course"
+    ]
+  },
+  {
+    "links": [
+      "https://www.amsterdamart.com/event/selected-gerrit-rietveld-academie-awards-show-2016-group-exhibition",
+      "http://www.looiersgracht60.org/calendar/event/selected-gra-awards-2016"
+      ]
+  },
+  {
+    "skills": [
+      "Javascript",
+      "Node",
+      "Express",
+      "Pug",
+      "PostgreSQL",
+      "jQuery",
+      "Ajax",
+      "HTML",
+      "CSS",
+      "Adobe Photoshop",
+      "Adobe InDesign",
+      "PremierePro",
+      "FinalCut"
+    ]
+  }
+]

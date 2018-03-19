@@ -16,6 +16,7 @@ div.about {
 	grid-row: 1/4;
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
+	overflow: hidden;
 }
 
 .about h4 {
@@ -24,9 +25,10 @@ div.about {
 }
 
 .about p {
-	padding: 20;
+	padding: 20px 20px 0 20px;
 }
 
 .res, .edu, .skills {
-	overflow-y: auto;
+	max-height: 82vh;
+	overflow-x: auto;
 }

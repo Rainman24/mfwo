@@ -1,7 +1,7 @@
 [{
 	"group": "visual",
 	"project": "nonsense",
-	"bckimg": "/images/NSLT.png",
+	"bckimg": "/images/nonsenselandscape.png",
 	"title": "Non Sense",
 	"captions": "Landscape Taurus",
 	"date": "April 2017",
@@ -28,7 +28,7 @@
 {
 	"group": "visual",
 	"project": "foo",
-	"bckimg": "/images/foopho-crops/eggel.png",
+	"bckimg": "/images/foopho-crops/grape.png",
 	"title": "foopho",
 	"captions": "foopho",
 	"date": "Dec 2015",
@@ -90,7 +90,7 @@
 },
 {
 	"group": "code",
-	"project": "BWT",
+	"project": "bwt",
 	"bckimg": "/images/cpro/gal2.png",
 	"title": "Bussines Website Template",
 	"captions": "Simple Website built on week two on the course",

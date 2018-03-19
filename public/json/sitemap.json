@@ -1,0 +1,108 @@
+[{
+	"group": "visual",
+	"project": "nonsense",
+	"bckimg": "/images/NSLT.png",
+	"title": "Non Sense",
+	"captions": "Landscape Taurus",
+	"date": "April 2017",
+	"hreff": "/projects/nonsense"
+},
+{
+	"group": "visual",
+	"project": "commonsense",
+	"bckimg": "/images/CommonSenseFINAL.png",
+	"title": "foopho",
+	"captions": "Hello",
+	"date": "April 2017",
+	"hreff": "/projects/commonsense"
+},
+{
+	"group": "visual",
+	"project": "it",
+	"bckimg": "/images/IT/4.png",
+	"title": "terraces",
+	"captions": "Italy",
+	"date": "August 2013",
+	"hreff": "/projects/it"
+},
+{
+	"group": "visual",
+	"project": "foo",
+	"bckimg": "/images/foopho-crops/eggel.png",
+	"title": "foopho",
+	"captions": "foopho",
+	"date": "Dec 2015",
+	"hreff": "/projects/foo"
+},
+{
+	"group": "visual",
+	"project": "frens",
+	"bckimg": "/images/Friends.png",
+	"title": "It's a lie",
+	"captions": "WikiHow to Make Friends",
+	"date": "April 2017",
+	"hreff": "/projects/frens"
+},
+{
+	"group": "visual",
+	"project": "ooo",
+	"bckimg": "/images/Oo.png",
+	"title": "ooo",
+	"captions": "logooo",
+	"date": "May 2017",
+	"hreff": "/projects/ooo"
+},
+{
+	"group": "visual",
+	"project": "negtau",
+	"bckimg": "/images/NS_WhiteTaurus.png",
+	"title": "Negative Space Res",
+	"captions": "Negative Space Res",
+	"date": "April 2017",
+	"hreff": "/projects/negtau"
+},
+{
+	"group": "visual",
+	"project": "fieldreport",
+	"bckimg": "/images/FR3.png",
+	"title": "Negative Space Res",
+	"captions": "Field Report",
+	"date": "January 2016",
+	"hreff": "/projects/fieldreport"
+},
+{
+	"group": "visual",
+	"project": "mihalk",
+	"bckimg": "/images/mihalk.png",
+	"title": "browser",
+	"captions": "browser",
+	"date": "October 2018",
+	"hreff": "/projects/mihalk"
+},
+{
+	"group": "code",
+	"project": "timelist",
+	"bckimg": "/images/cpro/listlift.png",
+	"title": "24h to-do timelist",
+	"captions": "yes",
+	"date": "January 2018",
+	"hreff": "/projects/timelist"
+},
+{
+	"group": "code",
+	"project": "BWT",
+	"bckimg": "/images/cpro/gal2.png",
+	"title": "Bussines Website Template",
+	"captions": "Simple Website built on week two on the course",
+	"date": "November 2017",
+	"hreff": "/projects/bwt"
+},
+{
+	"group": "code",
+	"project": "$(this)",
+	"bckimg": "/images/cpro/taugrid.png",
+	"title": "This is it",
+	"captions": "Gottcha",
+	"date": "March 2018",
+	"hreff": "/projects/bwt"
+}]

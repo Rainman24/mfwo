@@ -11,7 +11,6 @@ app.set('view engine', 'pug')
 app.set('views', './views')
 
 app.get('/', function(req,res){
-
 	fs.readFile('sitemap.json', function(err,data){
 		if(err) {throw err}
 	
@@ -31,6 +30,19 @@ app.get('/projects', function(req,res){
 
 		res.render('projects',{
 			cont: projects
+		})
+	})
+})
+
+app.get('/projects/:name', function(req,res){
+	fs.readFile('sitemap.json', function(err,data){
+		if(err) {throw err}
+	
+		var projects = JSON.parse(data)
+
+		res.render('projects',{
+			cont: projects,
+			url: req.params.name
 		})
 	})
 })

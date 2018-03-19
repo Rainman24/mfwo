@@ -15,6 +15,16 @@ $(document).ready(function(){
 		
 	})
 
+	$('.vertical').each(function(index,element){
+
+		$(element.childNodes).each(function(index,element){
+			if(element.dataset.position==1){
+				$(element).attr('class', 'direction')
+			}
+		})
+		
+	})
+
 	$('#top div.nav').append(`
 		<div id='projects' class='projects'><a href='/projects'>Projects</a></div>
 		`)

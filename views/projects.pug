@@ -2,9 +2,38 @@ extends home.pug
 
 block routes
 
-	div.test
 
-		//- p Oh gee, I sure hope this works
+	ul.visuals(style={display:'none'})
+
+		each item in cont
+
+			if item.group=="visual"
+
+				li(style=`background-image:url(${item.bckimg})`)
+					a(href=item.hreff) #{item.project}
+
+	ul.code(style={display:'none'})
+
+		each item in cont
+
+			if item.group=="code"
+
+				li(style=`background-image:url(${item.bckimg})`)
+					a(href=item.hreff) #{item.project}
+
+	div.gallery
+
+		each item in cont
+
+			if item.project==url
+
+				img(data-group=item.group data-name=item.project src=item.bckimg style={display:'block'})
+
+	p#navl 
+
+	p#navr 
+
+
 
 
 	link(rel='stylesheet', href='/styles/projects.css')

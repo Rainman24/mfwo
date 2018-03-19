@@ -18,9 +18,6 @@ body {
 div.display {
 	grid-column: 2/3;
 	grid-row: 2/3;
-	/*display: grid;
-	grid-template-columns: repeat(3,1fr);
-	grid-template-rows: repeat(3,1fr);*/
 }
 
 #top {
@@ -70,7 +67,6 @@ div.display {
 }
 
 .nav a {
-	display: block;
 	text-align: center;
 }
 
@@ -78,3 +74,8 @@ div.display {
 	cursor: pointer;
 }
 
+a[href='/projects'] {
+	display: block;
+	margin: auto;
+	width: 20%;
+}

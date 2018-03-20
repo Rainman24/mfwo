@@ -2,6 +2,8 @@
 	box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT|Open+Sans');
+
 body {
 	margin: 0;
 	padding: 0;
@@ -18,30 +20,27 @@ body {
 div.display {
 	grid-column: 2/3;
 	grid-row: 2/3;
+	border: 1px solid black;
 }
 
 #top {
 	grid-column: 2/3;
 	grid-row: 1/2;
-	border-bottom: 1px solid black;
-}
-
-#bottom {
-	grid-column: 2/3;
-	grid-row: 3/4;
-	border-top: 1px solid black;
-}
-
-#left {
-	grid-column: 1/2;
-	grid-row: 2/3;
-	border-right: 1px solid black;
 }
 
 #right {
 	grid-column: 3/4;
 	grid-row: 2/3;
-	border-left: 1px solid black;
+}
+
+#bottom {
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+
+#left {
+	grid-column: 1/2;
+	grid-row: 2/3;
 }
 
 .horizontal {
@@ -68,6 +67,15 @@ div.display {
 
 .nav a {
 	text-align: center;
+	text-decoration: none;
+	color: navyblue;
+	text-transform: uppercase;
+	font-family: 'Old Standard TT', sans-serif;
+}
+
+.nav a:hover{
+	color: white;
+    text-shadow: 1px 1px 4px #000000;
 }
 
 #contact {

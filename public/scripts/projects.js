@@ -19,14 +19,22 @@ $(document).ready(function(){
 
 	var display = $('.gallery img')
 
+	var visuals = $('ul.visuals')
+	var code = $('ul.code')
+
+	console.log(visuals[0])
+
 	$('#visuals').on('click', function(){
 		$('ul.code').fadeOut(400)
 		$('ul.visuals').toggle(400)
 
-		if(display[0].style.display!=='none'){
-			display[0].style.display = 'none'
-		} else {
-			display[0].style.display = 'block'
+		if(display[0]!==undefined&&visuals[0].style.display == 'none'&&code[0].style.display == 'none'){
+
+			if(display[0].style.display == 'block'){
+				display[0].style.display = 'none'
+			} else if(display[0].style.display == 'none') {
+				display[0].style.display = 'block'
+			}
 		}
 	})
 
@@ -34,21 +42,22 @@ $(document).ready(function(){
 		$('ul.visuals').fadeOut(400)
 		$('ul.code').toggle(400)
 
-		if(display[0].style.display!=='none'){
-			display[0].style.display = 'none'
-		} else {
-			display[0].style.display = 'block'
+		if(display[0]!==undefined&&visuals[0].style.display == 'none'&&code[0].style.display == 'none'){
+
+			if(display[0].style.display == 'block'){
+				display[0].style.display = 'none'
+			} else if(display[0].style.display == 'none') {
+				display[0].style.display = 'block'
+			}
 		}
 	})
 
 	var current;
 	var group;
-	
-	var previous;
 
 	$.get('/json/sitemap.json',function(data){
 
-		if(display[0].style.display == 'block'){
+		if(display[0]!==undefined&&display[0].style.display == 'block'){
 			current = display[0].dataset.name
 			group = display[0].dataset.group
 		}

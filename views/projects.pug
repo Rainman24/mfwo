@@ -2,7 +2,6 @@ extends home.pug
 
 block routes
 
-
 	ul.visuals(style={display:'none'})
 
 		each item in cont
@@ -29,12 +28,13 @@ block routes
 
 				img(data-group=item.group data-name=item.project src=item.bckimg style={display:'block'})
 
+				//- video(width='600', height='400', autoplay='')
+				//- 	source(src='/video/timelist.mp4', type='video/mp4')
+					
+
 	p#navl 
 
 	p#navr 
-
-
-
 
 	link(rel='stylesheet', href='/styles/projects.css')
 	script(src='/scripts/projects.js')

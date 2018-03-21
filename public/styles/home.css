@@ -21,6 +21,7 @@ div.display {
 	grid-column: 2/3;
 	grid-row: 2/3;
 	border: 1px solid black;
+	overflow: hidden;
 }
 
 #top {

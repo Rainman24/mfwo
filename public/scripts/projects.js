@@ -35,7 +35,10 @@ $(document).ready(function(){
 
 	})
 
-	var pcategory = $('ul.projects')
+	$(display[0]).on('click', function(){
+		$('#iframe').toggle(200)
+		// $(this).toggle(200)
+	})
 
 	var current;
 	var group;

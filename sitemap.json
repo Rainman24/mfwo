@@ -45,12 +45,12 @@
 },
 {
 	"group": "visual",
-	"project": "ooo",
+	"project": "oooh",
 	"bckimg": "/images/Oo.png",
-	"title": "ooo",
-	"captions": "logooo",
+	"title": "oooh",
+	"captions": "for all the lovers of the off-brand coke out there",
 	"date": "May 2017",
-	"hreff": "/projects/ooo"
+	"hreff": "/projects/oooh"
 },
 {
 	"group": "visual",
@@ -86,7 +86,8 @@
 	"title": "24h to-do timelist",
 	"captions": "yes",
 	"date": "January 2018",
-	"hreff": "/projects/timelist"
+	"hreff": "/projects/timelist",
+	"screencast": "https://player.vimeo.com/video/261029371?loop=1&title=0&byline=0"
 },
 {
 	"group": "code",
@@ -95,7 +96,8 @@
 	"title": "Bussines Website Template",
 	"captions": "Simple Website built on week two on the course",
 	"date": "November 2017",
-	"hreff": "/projects/bwt"
+	"hreff": "/projects/bwt",
+	"screencast": "https://player.vimeo.com/video/261057223?loop=1&title=0&byline=0&portrait=0"
 },
 {
 	"group": "code",
@@ -104,5 +106,6 @@
 	"title": "This is it",
 	"captions": "Gottcha",
 	"date": "March 2018",
-	"hreff": "/"
+	"hreff": "/",
+	"screencast": "https://player.vimeo.com/video/261059350?loop=1&title=0&byline=0&portrait=0"
 }]

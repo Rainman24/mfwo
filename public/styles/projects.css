@@ -64,6 +64,7 @@ div.gallery {
 	height: 82vh;
 	display: grid;
 	align-items: center;
+	overflow-y: scroll;
 }
 
 .gallery img {
@@ -71,6 +72,11 @@ div.gallery {
 	max-height: 80vh;
 	display: block;
 	margin: auto;
+	padding: 10;
+}
+
+img.code {
+	cursor: help;
 }
 
 .direction {
@@ -106,6 +112,14 @@ div.gallery {
 	text-align: center;
 }
 
+.visuals li:nth-child(4) {
+	background-position: 50% 70%;
+}
+
+.visuals li:nth-child(6) {
+	background-position: 50% 60%;
+}
+
 .code li:nth-child(2) {
 	background-position: 60% 50%;
 }
@@ -127,6 +141,9 @@ div.gallery {
 		rgba(255,255,255,0));
 }
 
-/*.visuals li:hover {
-	background: white;
-}*/
+#iframe {
+	display: block;
+	margin: auto;
+	padding: 20px 0px 20px 0px;
+	max-width: 100%;
+}

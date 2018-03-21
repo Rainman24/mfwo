@@ -19,38 +19,23 @@ $(document).ready(function(){
 
 	var display = $('.gallery img')
 
-	var visuals = $('ul.visuals')
-	var code = $('ul.code')
-
-	console.log(visuals[0])
-
 	$('#visuals').on('click', function(){
 		$('ul.code').fadeOut(400)
 		$('ul.visuals').toggle(400)
 
-		if(display[0]!==undefined&&visuals[0].style.display == 'none'&&code[0].style.display == 'none'){
+		$('.gallery img').toggle(400)
 
-			if(display[0].style.display == 'block'){
-				display[0].style.display = 'none'
-			} else if(display[0].style.display == 'none') {
-				display[0].style.display = 'block'
-			}
-		}
 	})
 
 	$('#code').on('click', function(){
 		$('ul.visuals').fadeOut(400)
 		$('ul.code').toggle(400)
 
-		if(display[0]!==undefined&&visuals[0].style.display == 'none'&&code[0].style.display == 'none'){
+		$('.gallery img').toggle(400)
 
-			if(display[0].style.display == 'block'){
-				display[0].style.display = 'none'
-			} else if(display[0].style.display == 'none') {
-				display[0].style.display = 'block'
-			}
-		}
 	})
+
+	var pcategory = $('ul.projects')
 
 	var current;
 	var group;

@@ -26,7 +26,13 @@ html
 
 			div.vertical#right
 
-			div.display
+			if homepage
+		
+				div.display(style=`background-image:url('/images/introblur.png'); background-size:cover`)
 
-				block routes
+			else if !homepage
+
+				div.display
+
+					block routes
 

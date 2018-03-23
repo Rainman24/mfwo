@@ -8,9 +8,32 @@ $(document).ready(function(){
 
 		})
 
-		data[2].links.forEach(function(item){
-			console.log(item)
-		})
+		console.log(data[2].links)
+		var links = data[2].links
+
+		// data[2].links.forEach(function(item){
+			
+		for(i=0;i<links.length;i++){
+
+
+
+			var edu = $('#edu')
+			var eduli = edu[0].children
+
+			$(eduli).each(function(index,element){
+				var text = $(element).text()
+
+				console.log(links[0])
+
+				if(index==5){
+					$(element).html(`<a href=${links[0]}>${text}</a>`)
+				}
+				if(index==6){
+					$(element).html(`<a href=${links[1]}>${text}</a>`)
+				}
+			})
+		}
+		// })
 
 		data[3].skills.forEach(function(item){
 
@@ -18,10 +41,20 @@ $(document).ready(function(){
 			
 		})
 
+		var edu = $('#edu')
+		var eduli = edu[0].children
+
+		$(eduli).each(function(index,element){
+			var text = $(element).text()
+
+			if(index==5){
+				$(element).html(`<a>${text}</a>`)
+			}
+			if(index==6){
+				$(element).html(`<a>${text}</a>`)
+			}
+		})
+
 	})
-
-	var edulist = $('#edu')
-
-	console.log(edulist)
 
 })

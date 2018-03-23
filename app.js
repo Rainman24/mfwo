@@ -17,6 +17,7 @@ app.get('/', function(req,res){
 		var projects = JSON.parse(data)
 
 		res.render('home',{
+			homepage: true,
 			cont: projects
 		})
 	})
@@ -51,6 +52,6 @@ app.get('/about', function(req,res){
 	res.render('about')
 })
 
-app.listen(80, function(){
+app.listen(3007, function(){
 	console.log('I am listening')
 })

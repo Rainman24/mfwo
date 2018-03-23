@@ -69,7 +69,8 @@ div.display {
 .nav a {
 	text-align: center;
 	text-decoration: none;
-	color: navyblue;
+	color: grey;
+	font-size: 3vw;
 	text-transform: uppercase;
 	font-family: 'Old Standard TT', sans-serif;
 }

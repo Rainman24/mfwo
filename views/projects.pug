@@ -26,8 +26,11 @@ block routes
 
 			if item.project==url
 
-				img(class=item.group class='tooltip' data-group=item.group data-name=item.project src=item.bckimg style={display:'block'})
-				p(class='tooltip') Click for more info
+				div.preview
+
+					img(class=item.group data-group=item.group data-name=item.project src=item.bckimg style={display:'block'})
+					
+					p(class='tooltip') ✚
 
 				if item.group=="code"
 

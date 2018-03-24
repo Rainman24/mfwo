@@ -26,10 +26,10 @@ $(document).ready(function(){
 				console.log(links[0])
 
 				if(index==5){
-					$(element).html(`<a href=${links[0]}>${text}</a>`)
+					$(element).html(`<a target='a_blank' href=${links[0]}>${text}</a>`)
 				}
 				if(index==6){
-					$(element).html(`<a href=${links[1]}>${text}</a>`)
+					$(element).html(`<a target='a_blank' href=${links[1]}>${text}</a>`)
 				}
 			})
 		}
@@ -39,20 +39,6 @@ $(document).ready(function(){
 
 			$('#skills').append(`<li>${item}</li>`)
 			
-		})
-
-		var edu = $('#edu')
-		var eduli = edu[0].children
-
-		$(eduli).each(function(index,element){
-			var text = $(element).text()
-
-			if(index==5){
-				$(element).html(`<a>${text}</a>`)
-			}
-			if(index==6){
-				$(element).html(`<a>${text}</a>`)
-			}
 		})
 
 	})

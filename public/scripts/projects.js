@@ -35,19 +35,32 @@ $(document).ready(function(){
 
 	})
 
-	$(display[0]).on('click', function(){
-		$('#iframe').toggle(200)
-	})
-
 	var tooltip = $('.gallery p')
+	
+	var iframe = $('#iframe')
+
+	$(display[0]).on('click', function(){
+
+		console.log(iframe[0].style.display)
+
+		if(iframe[0].style.display=='none'){
+			$(tooltip[0]).text('✕')
+		}
+		 if(iframe[0].style.display!=='none'){
+			$(tooltip[0]).text('✚')
+		}
+
+		$('#iframe').toggle(200)
+		
+	})
 
 	$(display[0]).on('mousemove', function(e){
 
 		var x = e.clientX,
 	        y = e.clientY;
 
-	    tooltip[0].style.top = (y + 10) + 'px';
-	    tooltip[0].style.left = (x + 10) + 'px';
+	    tooltip[0].style.top = (y + 12) + 'px';
+	    tooltip[0].style.left = (x + 12) + 'px';
 
 	})
 

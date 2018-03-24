@@ -30,9 +30,9 @@ $(document).ready(function(){
 		`)
 
 	$('#bottom div.nav').append(`
-		<ul>
-			<li class=about><a id='about' href='/about'>About</a></li>
-			<li class=contact><a id='contact'>Contact</a></li>
+		<ul id='abco'>
+			<li class='about'><a id='about' href='/about'>About</a></li>
+			<li class='contact'><a id='contact'>Contact</a></li>
 		</ul>`)
 
 	var modal = $('#modal')

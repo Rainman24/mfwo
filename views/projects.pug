@@ -26,9 +26,12 @@ block routes
 
 			if item.project==url
 
-				iframe(id='iframe' src=item.screencast width="900" height="563" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={display:'none'})
+				img(class=item.group class='tooltip' data-group=item.group data-name=item.project src=item.bckimg style={display:'block'})
+				p(class='tooltip') Click for more info
 
-				img(class=item.group data-group=item.group data-name=item.project src=item.bckimg style={display:'block'})
+				if item.group=="code"
+
+					iframe(id='iframe' src=item.screencast width="900" height="563" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={display:'none'})
 					
 
 	p#navl 

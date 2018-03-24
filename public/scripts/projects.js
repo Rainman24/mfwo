@@ -40,6 +40,13 @@ $(document).ready(function(){
 		// $(this).toggle(200)
 	})
 
+	$(display[0]).on('mousemove', function(e){
+		console.log('X', e.clientX)
+		console.log('Y', e.clientY)
+
+		
+	})
+
 	var current;
 	var group;
 

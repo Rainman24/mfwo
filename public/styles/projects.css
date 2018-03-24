@@ -73,6 +73,7 @@ div.gallery {
 	display: block;
 	margin: auto;
 	padding: 10;
+	position: relative;
 }
 
 img.code {
@@ -148,10 +149,14 @@ img.code {
 	max-width: 100%;
 }
 
-p.tooltip {
+.gallery p {
 	background: white;
 	border: 1px solid black;
 	padding: 10;
-	position: absolute;
-	top: 20%;
+	display: none;
+}
+
+.gallery:hover p {
+	display: block;
+	position: fixed;
 }

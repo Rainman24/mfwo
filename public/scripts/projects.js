@@ -37,14 +37,18 @@ $(document).ready(function(){
 
 	$(display[0]).on('click', function(){
 		$('#iframe').toggle(200)
-		// $(this).toggle(200)
 	})
 
-	$(display[0]).on('mousemove', function(e){
-		console.log('X', e.clientX)
-		console.log('Y', e.clientY)
+	var tooltip = $('.gallery p')
 
-		
+	$(display[0]).on('mousemove', function(e){
+
+		var x = e.clientX,
+	        y = e.clientY;
+
+	    tooltip[0].style.top = (y + 10) + 'px';
+	    tooltip[0].style.left = (x + 10) + 'px';
+
 	})
 
 	var current;

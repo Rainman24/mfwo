@@ -73,7 +73,7 @@ div.display {
 	text-align: center;
 	text-decoration: none;
 	color: grey;
-	font-size: 3vw;
+	font-size: 4vh;
 	text-transform: uppercase;
 	font-family: 'Old Standard TT', sans-serif;
 }
@@ -81,10 +81,6 @@ div.display {
 .nav a:hover{
 	color: white;
 	text-shadow: 1px 1px 4px #000000;
-}
-
-#abco {
-
 }
 
 #contact {

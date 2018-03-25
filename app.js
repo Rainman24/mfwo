@@ -18,6 +18,7 @@ app.get('/', function(req,res){
 
 		res.render('home',{
 			homepage: true,
+			title: 'Yes',
 			cont: projects
 		})
 	})
@@ -30,7 +31,8 @@ app.get('/projects', function(req,res){
 		var projects = JSON.parse(data)
 
 		res.render('projects',{
-			cont: projects
+			cont: projects,
+			title: 'Projects'
 		})
 	})
 })
@@ -43,13 +45,16 @@ app.get('/projects/:name', function(req,res){
 
 		res.render('projects',{
 			cont: projects,
-			url: req.params.name
+			url: req.params.name,
+			title: 'Project: ' + req.params.name
 		})
 	})
 })
 
 app.get('/about', function(req,res){
-	res.render('about')
+	res.render('about', {
+		title: 'About'
+	})
 })
 
 app.listen(3007, function(){

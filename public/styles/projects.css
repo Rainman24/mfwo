@@ -101,7 +101,7 @@ img.code {
 
 .visuals li a, .code li a {
 	text-decoration: none;
-	font-size: 4vh;
+	font-size: 3vh;
 	padding: 20;
 	font-weight: bold;
 	color: rgba(255,255,255,0);
@@ -153,15 +153,12 @@ img.code {
 .preview p {
 	display: none;
 	margin: 0;
+	transform: rotate(45deg);
 	font-size: 4vh;
-	color: white;
-	-webkit-text-stroke: 1px grey;
-	text-shadow: 1px 1px 2px grey, 0 0 5px grey;
 	cursor: pointer;
 }
 
 .preview:hover p {
 	display: block;
 	position: fixed;
-	/*overflow: hidden;*/
 }

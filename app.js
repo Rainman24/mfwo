@@ -57,6 +57,6 @@ app.get('/about', function(req,res){
 	})
 })
 
-app.listen(3007, function(){
+app.listen(80, function(){
 	console.log('I am listening')
 })

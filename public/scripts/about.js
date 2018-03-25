@@ -2,6 +2,13 @@ $(document).ready(function(){
 
 	$.get('/json/about.json', function(data){
 
+		console.log(data[0].resume)
+		data[0].resume.forEach(function(item){
+
+			$('div.res').append(`<p>${item}</p>`)
+
+		})
+
 		data[1].education.forEach(function(item){
 
 			$('#edu').append(`<li>${item}</li>`)

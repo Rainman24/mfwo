@@ -45,5 +45,35 @@ $(document).ready(function(){
 			modal[0].style.display = 'none'
 		})
 	})
+
+	var introbck = $('.intro').css('background');
+	var mframe = $('div.display').css('border');
+
+	$('.intro').mousemove(function(e) {
+
+	    x = e.pageX - this.offsetLeft;
+	    y = e.pageY - this.offsetTop;
+	    xy = x + y;
+
+	    dynamicgrad = "linear-gradient(" + xy + "deg, rgba(245,245,245,1), rgba(125,125,125,0.4))";
+
+	    $(this).css({
+	      'background': dynamicgrad
+	    })
+
+	    $('div.display').css({
+	    	border:'0'
+	    })
+
+	  }).mouseleave(function() {
+
+	    $(this).css({
+	      background: introbck
+	    })
+
+	    $('div.display').css({
+	    	border:mframe
+	    })
+	 });
 	
 })

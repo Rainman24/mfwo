@@ -156,9 +156,12 @@ img.code {
 	transform: rotate(45deg);
 	font-size: 4vh;
 	cursor: pointer;
+	background: rgba(255,255,70,0,7);
+	/*mix-blend-mode: difference;*/
 }
 
 .preview:hover p {
 	display: block;
 	position: fixed;
+	/*mix-blend-mode: difference;*/
 }

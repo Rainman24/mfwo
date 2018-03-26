@@ -34,6 +34,7 @@ ul.visuals {
 	grid-template-columns: 1fr;
 	overflow: scroll;
 	border-bottom: 1px solid black;
+	align-items: center;
 }
 
 ul.code {
@@ -44,6 +45,7 @@ ul.code {
 	height: 82vh;
 	display: grid;
 	grid-template-rows: repeat(3,1fr);
+	align-items: center;
 }
 
 .visuals li, .code li {
@@ -148,6 +150,13 @@ img.code {
 	padding: 20px 0px 20px 0px;
 	max-width: 100%;
 	grid-row: 1/2;
+}
+
+#samplecode {
+	display: block;
+	margin: auto;
+	height: 60vh;
+	grid-row: 2/3;
 }
 
 .preview p {

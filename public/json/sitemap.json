@@ -1,4 +1,34 @@
 [{
+	"group": "code",
+	"project": "timelist",
+	"bckimg": "/images/cpro/listlift.png",
+	"title": "24h to-do timelist",
+	"captions": "yes",
+	"date": "January 2018",
+	"hreff": "/projects/timelist",
+	"screencast": "https://player.vimeo.com/video/261029371?loop=1&title=0&byline=0&portrait=0"
+},
+{
+	"group": "code",
+	"project": "bwt",
+	"bckimg": "/images/cpro/gal2.png",
+	"title": "Bussines Website Template",
+	"captions": "Simple Website built on week two on the course",
+	"date": "November 2017",
+	"hreff": "/projects/bwt",
+	"screencast": "https://player.vimeo.com/video/261057223?loop=1&title=0&byline=0&portrait=0"
+},
+{
+	"group": "code",
+	"project": "$(this)",
+	"bckimg": "/images/cpro/taugrid.png",
+	"title": "This is it",
+	"captions": "Gottcha",
+	"date": "March 2018",
+	"hreff": "/",
+	"screencast": "https://player.vimeo.com/video/261059350?loop=1&title=0&byline=0&portrait=0"
+},
+{
 	"group": "visual",
 	"project": "nonsense",
 	"bckimg": "/images/nonsenselandscape.png",
@@ -78,34 +108,4 @@
 	"captions": "browser",
 	"date": "October 2018",
 	"hreff": "/projects/mihalk"
-},
-{
-	"group": "code",
-	"project": "timelist",
-	"bckimg": "/images/cpro/listlift.png",
-	"title": "24h to-do timelist",
-	"captions": "yes",
-	"date": "January 2018",
-	"hreff": "/projects/timelist",
-	"screencast": "https://player.vimeo.com/video/261029371?loop=1&title=0&byline=0&portrait=0"
-},
-{
-	"group": "code",
-	"project": "bwt",
-	"bckimg": "/images/cpro/gal2.png",
-	"title": "Bussines Website Template",
-	"captions": "Simple Website built on week two on the course",
-	"date": "November 2017",
-	"hreff": "/projects/bwt",
-	"screencast": "https://player.vimeo.com/video/261057223?loop=1&title=0&byline=0&portrait=0"
-},
-{
-	"group": "code",
-	"project": "$(this)",
-	"bckimg": "/images/cpro/taugrid.png",
-	"title": "This is it",
-	"captions": "Gottcha",
-	"date": "March 2018",
-	"hreff": "/",
-	"screencast": "https://player.vimeo.com/video/261059350?loop=1&title=0&byline=0&portrait=0"
 }]

@@ -4,8 +4,8 @@ $(document).ready(function(){
 
 	$('#projects').html(`
 		<ul class='projects'>
-			<li id='visuals'><a>Visuals</a></li>
 			<li id='code'><a>Code</a></li>
+			<li id='visuals'><a>Visuals</a></li>
 		</ul>
 		`)
 
@@ -52,7 +52,7 @@ $(document).ready(function(){
 			tooltip[0].style.transform = 'rotate(45deg)'
 		}
 
-		$('#iframe').toggle(200)
+		$('.iframe').toggle(200)
 		
 	})
 

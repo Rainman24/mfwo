@@ -115,11 +115,15 @@ img.code {
 	text-align: center;
 }
 
+.visuals li:nth-child(1) {
+	background-position: 50% 20%;
+}
+
 .visuals li:nth-child(4) {
 	background-position: 50% 70%;
 }
 
-.visuals li:nth-child(6) {
+.visuals li:nth-child(7) {
 	background-position: 50% 60%;
 }
 
@@ -152,11 +156,11 @@ img.code {
 	grid-row: 1/2;
 }
 
-#samplecode {
+.extra {
 	display: block;
 	margin: auto;
-	height: 60vh;
-	grid-row: 2/3;
+	height: 82vh;
+	grid-row: 1/2;
 }
 
 .preview p {

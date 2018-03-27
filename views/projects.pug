@@ -32,9 +32,11 @@ block routes
 					
 					p(class=item.group) ✕
 
-				if item.group=="code"
+				if item.screencast
 
-					iframe(class='iframe' id='iframe' src=item.screencast width="900" height="563" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={display:'none'})
+					div.extra(style={display:'none'})
+
+						iframe(class='iframe' id='iframe' src=item.screencast width="900" height="563" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
 
 					//- iframe(class='iframe' id='samplecode' src='/iframeref/Base/html/perspect.html' style={display:'none'})		
 

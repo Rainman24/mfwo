@@ -36,25 +36,29 @@ $(document).ready(function(){
 	})
 
 	var tooltip = $('.gallery p')
-	var unfold = $('.code img')
+	var unfold = $('.extra')
 	var iframe = $('#iframe')
 
 	$(display[0]).on('click', function(){
 
-		console.log(iframe[0].style.display)
-
-		if(iframe[0].style.display=='none'){
+		if(unfold[0].style.display=='none'){
 			
 			tooltip[0].style.transform = 'rotate(0deg)'
 		}
-		 if(iframe[0].style.display!=='none'){
+		 if(unfold[0].style.display!=='none'){
 			
 			tooltip[0].style.transform = 'rotate(45deg)'
 		}
 
-		$('.iframe').toggle(200)
+		$('.extra').toggle(200)
 		
 	})
+
+	var contents = $('div.gallery')
+
+	if(contents[0].childElementCount<2){
+		tooltip[0].style.visibility = 'hidden'
+	}
 
 	$(display[0]).on('mousemove', function(e){
 
@@ -92,7 +96,6 @@ $(document).ready(function(){
 			}
 			
 		}
-
 
 	})
 

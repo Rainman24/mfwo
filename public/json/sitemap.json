@@ -30,10 +30,20 @@
 },
 {
 	"group": "visual",
+	"project": "oudekerk15",
+	"bckimg": "/images/image-6.jpeg",
+	"title": "Oude Kerk 15",
+	"captions": "Tribute to the progressive quality of public service announcements in Amsterdam",
+	"date": "April 2015",
+	"hreff": "/projects/oudekerk15",
+	"screencast": "https://player.vimeo.com/video/183824434?title=0&byline=0&portrait=0"
+},
+{
+	"group": "visual",
 	"project": "nonsense",
 	"bckimg": "/images/nonsenselandscape.png",
 	"title": "Non Sense",
-	"captions": "Landscape Taurus",
+	"captions": "Windows 95 Dual Core Processor",
 	"date": "April 2017",
 	"hreff": "/projects/nonsense"
 },

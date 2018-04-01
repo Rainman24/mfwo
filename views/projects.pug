@@ -38,17 +38,21 @@ block routes
 
 						iframe(class='iframe' id='iframe' src=item.screencast width="900" height="563" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
 
-						div(class='extrav' id=item.project)
+						if item.extra
 
-							img(src=item.extrav)
+							div(class='extrav' id=item.project)
 
-							div.if
+								img(src=item.extrav)
 
-								img(src=item.extraf)
+								div.if
 
-							each val in item.extra
+									each val in item.extraf
 
-								p #{val}		
+										img(src=val)
+
+								each val in item.extra
+
+									p #{val}		
 
 	p#navl 
 

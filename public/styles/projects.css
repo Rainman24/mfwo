@@ -171,7 +171,7 @@ div.extra {
 	padding: 20;
 	font-family: 'Roboto', sans-serif;
 	display: block;
-	margin: 10 auto;
+	margin: auto;
 }
 
 .preview p {
@@ -197,11 +197,11 @@ div.extrav {
 }
 
 .extra img {
-	grid-row: 2/3;
+	grid-row: 3/4;
 }
 
 div.if {
-	grid-row: 4/5;
+	grid-row: 5/6;
 	width: 80%;
 	display: grid;
 	margin: auto;

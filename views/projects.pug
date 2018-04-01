@@ -38,7 +38,17 @@ block routes
 
 						iframe(class='iframe' id='iframe' src=item.screencast width="900" height="563" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
 
-					//- iframe(class='iframe' id='samplecode' src='/iframeref/Base/html/perspect.html' style={display:'none'})		
+						div(class='extrav' id=item.project)
+
+							img(src=item.extrav)
+
+							div.if
+
+								img(src=item.extraf)
+
+							each val in item.extra
+
+								p #{val}		
 
 	p#navl 
 

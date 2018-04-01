@@ -1,121 +1,130 @@
-[{
-	"group": "code",
-	"project": "timelist",
-	"bckimg": "/images/cpro/listlift.png",
-	"title": "24h to-do timelist",
-	"captions": "yes",
-	"date": "January 2018",
-	"hreff": "/projects/timelist",
-	"screencast": "https://player.vimeo.com/video/261029371?loop=1&title=0&byline=0&portrait=0"
-},
-{
-	"group": "code",
-	"project": "bwt",
-	"bckimg": "/images/cpro/gal2.png",
-	"title": "Bussines Website Template",
-	"captions": "Simple Website built on week two on the course",
-	"date": "November 2017",
-	"hreff": "/projects/bwt",
-	"screencast": "https://player.vimeo.com/video/261057223?loop=1&title=0&byline=0&portrait=0"
-},
-{
-	"group": "code",
-	"project": "$(this)",
-	"bckimg": "/images/cpro/taugrid.png",
-	"title": "This is it",
-	"captions": "Gottcha",
-	"date": "March 2018",
-	"hreff": "/",
-	"screencast": "https://player.vimeo.com/video/261059350?loop=1&title=0&byline=0&portrait=0"
-},
-{
-	"group": "visual",
-	"project": "oudekerk15",
-	"bckimg": "/images/okled.jpeg",
-	"title": "Oude Kerk 15",
-	"captions": "Tribute to the progressive quality of public service announcements in Amsterdam",
-	"date": "April 2015",
-	"hreff": "/projects/oudekerk15",
-	"screencast": "https://player.vimeo.com/video/183824434?title=0&byline=0&portrait=0"
-},
-{
-	"group": "visual",
-	"project": "nonsense",
-	"bckimg": "/images/nonsenselandscape.png",
-	"title": "Non Sense",
-	"captions": "Windows 95 Dual Core Processor",
-	"date": "April 2017",
-	"hreff": "/projects/nonsense"
-},
-{
-	"group": "visual",
-	"project": "commonsense",
-	"bckimg": "/images/CommonSenseFINAL.png",
-	"title": "foopho",
-	"captions": "Hello",
-	"date": "April 2017",
-	"hreff": "/projects/commonsense"
-},
-{
-	"group": "visual",
-	"project": "it",
-	"bckimg": "/images/IT/4.png",
-	"title": "terraces",
-	"captions": "Italy",
-	"date": "August 2013",
-	"hreff": "/projects/it"
-},
-{
-	"group": "visual",
-	"project": "foo",
-	"bckimg": "/images/foopho-crops/grape.png",
-	"title": "foopho",
-	"captions": "foopho",
-	"date": "Dec 2015",
-	"hreff": "/projects/foo"
-},
-{
-	"group": "visual",
-	"project": "wikiFriends",
-	"bckimg": "/images/Friends.png",
-	"title": "It's a lie",
-	"captions": "WikiHow to Make Friends",
-	"date": "April 2017",
-	"hreff": "/projects/wikiFriends"
-},
-{
-	"group": "visual",
-	"project": "oooh",
-	"bckimg": "/images/Oo.png",
-	"title": "for all the lovers of the off-brand coke out there",
-	"captions": "co",
-	"date": "May 2017",
-	"hreff": "/projects/oooh"
-},
-{
-	"group": "visual",
-	"project": "negtau",
-	"bckimg": "/images/NS_WhiteTaurus.png",
-	"title": "Negative Space Res",
-	"captions": "Negative Space Res",
-	"date": "April 2017",
-	"hreff": "/projects/negtau"
-},
-{
-	"group": "visual",
-	"project": "fieldreport",
-	"bckimg": "/images/FR3.png",
-	"title": "Negative Space Res",
-	"captions": "Field Report",
-	"date": "January 2016",
-	"hreff": "/projects/fieldreport"
-},
-{
-	"group": "visual",
-	"project": "mihalk",
-	"bckimg": "/images/mihalk.png",
-	"title": "browser",
-	"captions": "browser",
-	"date": "October 2018",
-	"hreff": "/projects/mihalk"
-}]
+[
+  {
+    "group": "code",
+    "project": "timelist",
+    "bckimg": "/images/cpro/listlift.png",
+    "title": "24h to-do timelist",
+    "captions": "yes",
+    "date": "January 2018",
+    "hreff": "/projects/timelist",
+    "screencast": "https://player.vimeo.com/video/261029371?loop=1&title=0&byline=0&portrait=0",
+    "extra": [
+      "Usually before disposing an empty package I compress it so it takes as little space in the bin, this habit is automatic and is done unconsciously and slightly negligent since the package itself is obsolete. Yet one night in the end of the course I was about to dispose of a cardboard tea package, but instead of reaping it apart I have carefully unfolded it to its 2 dimensional layout, and the outline of it reminded me of a website schema.",
+      "If the navigation bar and the main content are originally filling the viewport, then all other elements are displayed due to client side interaction and in this case the layout might not require any specific event handlers since the structure is fitting the natural document flow. So if the layout placed on a 2D schema is already part of the document on load, then I got curious how it would look in its “folded” state. From this point I’ve started to experiment with the transform property and made some try outs.",
+      "In the example above I’ve got a sense of how with at least four div elements and the transform property in CSS I can achieve to present the whole page layout within the viewport aspect ratio, so while being able to interact with the contents of a single section, other parts of the webpage remain visible and accessible at all times. Since the layout has a depth it as well becomes an enclosed space that might become an asset in a right context. For instance if it becomes accessible only as a feature of a personal profile that provides functionalities which output is convenient to be displayed in proximity to each other."
+    ],
+    "extrav": "/images/boxlayout1.png",
+    "extraf": "/images/room.png"
+  },
+  {
+    "group": "code",
+    "project": "bwt",
+    "bckimg": "/images/cpro/gal2.png",
+    "title": "Bussines Website Template",
+    "captions": "Simple Website built on week two on the course",
+    "date": "November 2017",
+    "hreff": "/projects/bwt",
+    "screencast": "https://player.vimeo.com/video/261057223?loop=1&title=0&byline=0&portrait=0"
+  },
+  {
+    "group": "code",
+    "project": "$(this)",
+    "bckimg": "/images/cpro/taugrid.png",
+    "title": "This is it",
+    "captions": "Gottcha",
+    "date": "March 2018",
+    "hreff": "/",
+    "screencast": "https://player.vimeo.com/video/261059350?loop=1&title=0&byline=0&portrait=0"
+  },
+  {
+    "group": "visual",
+    "project": "oudekerk15",
+    "bckimg": "/images/okled.jpeg",
+    "title": "Oude Kerk 15",
+    "captions": "Tribute to the progressive quality of public service announcements in Amsterdam",
+    "date": "April 2015",
+    "hreff": "/projects/oudekerk15",
+    "screencast": "https://player.vimeo.com/video/183824434?title=0&byline=0&portrait=0"
+  },
+  {
+    "group": "visual",
+    "project": "nonsense",
+    "bckimg": "/images/nonsenselandscape.png",
+    "title": "Non Sense",
+    "captions": "Windows 95 Dual Core Processor",
+    "date": "April 2017",
+    "hreff": "/projects/nonsense"
+  },
+  {
+    "group": "visual",
+    "project": "commonsense",
+    "bckimg": "/images/CommonSenseFINAL.png",
+    "title": "foopho",
+    "captions": "Hello",
+    "date": "April 2017",
+    "hreff": "/projects/commonsense"
+  },
+  {
+    "group": "visual",
+    "project": "it",
+    "bckimg": "/images/IT/4.png",
+    "title": "terraces",
+    "captions": "Italy",
+    "date": "August 2013",
+    "hreff": "/projects/it"
+  },
+  {
+    "group": "visual",
+    "project": "foo",
+    "bckimg": "/images/foopho-crops/grape.png",
+    "title": "foopho",
+    "captions": "foopho",
+    "date": "Dec 2015",
+    "hreff": "/projects/foo"
+  },
+  {
+    "group": "visual",
+    "project": "wikiFriends",
+    "bckimg": "/images/Friends.png",
+    "title": "It's a lie",
+    "captions": "WikiHow to Make Friends",
+    "date": "April 2017",
+    "hreff": "/projects/wikiFriends"
+  },
+  {
+    "group": "visual",
+    "project": "oooh",
+    "bckimg": "/images/Oo.png",
+    "title": "for all the lovers of the off-brand coke out there",
+    "captions": "co",
+    "date": "May 2017",
+    "hreff": "/projects/oooh"
+  },
+  {
+    "group": "visual",
+    "project": "negtau",
+    "bckimg": "/images/NS_WhiteTaurus.png",
+    "title": "Negative Space Res",
+    "captions": "Negative Space Res",
+    "date": "April 2017",
+    "hreff": "/projects/negtau"
+  },
+  {
+    "group": "visual",
+    "project": "fieldreport",
+    "bckimg": "/images/FR3.png",
+    "title": "Negative Space Res",
+    "captions": "Field Report",
+    "date": "January 2016",
+    "hreff": "/projects/fieldreport"
+  },
+  {
+    "group": "visual",
+    "project": "mihalk",
+    "bckimg": "/images/mihalk.png",
+    "title": "browser",
+    "captions": "browser",
+    "date": "October 2018",
+    "hreff": "/projects/mihalk"
+  }
+]

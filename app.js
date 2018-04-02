@@ -32,6 +32,7 @@ app.get('/projects', function(req,res){
 
 		res.render('projects',{
 			cont: projects,
+			projects: true,
 			title: 'Projects'
 		})
 	})

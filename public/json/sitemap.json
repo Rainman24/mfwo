@@ -9,11 +9,14 @@
     "hreff": "/projects/timelist",
     "screencast": "https://player.vimeo.com/video/261029371?loop=1&title=0&byline=0&portrait=0",
     "extra": [
-      "Usually before disposing an empty package I compress it so it takes as little space in the bin, this habit is automatic and is done unconsciously and slightly negligent since the package itself is obsolete. Yet one night in the end of the course I was about to dispose of a cardboard tea package, but instead of reaping it apart I have carefully unfolded it to its 2 dimensional layout, and the outline of it reminded me of a website schema.",
-      "If the navigation bar and the main content are originally filling the viewport, then all other elements are displayed due to client side interaction and in this case the layout might not require any specific event handlers since the structure is fitting the natural document flow. So if the layout placed on a 2D schema is already part of the document on load, then I got curious how it would look in its “folded” state. From this point I’ve started to experiment with the transform property and made some try outs.",
-      "In the example above I’ve got a sense of how with at least four div elements and the transform property in CSS I can achieve to present the whole page layout within the viewport aspect ratio, so while being able to interact with the contents of a single section, other parts of the webpage remain visible and accessible at all times. Since the layout has a depth it as well becomes an enclosed space that might become an asset in a right context. For instance if it becomes accessible only as a feature of a personal profile that provides functionalities which output is convenient to be displayed in proximity to each other."
+      "During last two weeks of the course we were assigned to build a final project. My goal was to build a three dimensional layout with functionality of a customised countdown list that works within the scope of today and tomorrow. This idea was meant to exercise both front and back-end abilities. Additionally I have decided to restrict myself on the early stages of the project by using minimal resources, in order to exercise the fundamentals and test their limits before transitioning to more advanced tools that I was already familiar with.",
+      "Usually before disposing an empty package I compress it so it takes as little space in the bin, this habit is automatic and is done unconsciously and slightly negligent since the package itself is obsolete. Yet one night in the end of the course I was about to dispose of a cardboard tea package, but instead of reaping it apart I have carefully unfolded it to its 2 dimensional layout, and its outline reminded me of a website schema.",
+      "If the navigation bar and the main content are originally filling the viewport, then all other elements are displayed due to the client side interaction and in this case the layout might not require any specific event handlers since the structure is fitting the natural document flow. So if the layout placed on a 2D schema is already part of the document on load, then I got curious how it would look in its “folded” state. From this point I’ve started to experiment with the transform property and made some try outs.",
+      "In the example above I’ve got a sense of how with at least four div elements and the transform property in CSS I can achieve to present the whole page layout within the viewport aspect ratio, so while being able to interact with the contents of a single section, other parts of the webpage remain visible and accessible at all times. Since the layout has a depth it as well becomes an enclosed space that might become an asset in a right context. For instance if it becomes accessible only as a feature of a personal profile that provides functionalities which output is convenient to be displayed in proximity to each other.",
+      "As someone who has a specific relation to “To-Do” lists, I have always wished to be able to construct one in a less linear fashion, but without the threat of turning it in a bucket list. The asynchronous nature of Node.js was first explained to us with an analogy to the sequence of simple actions required to do some household chores. So while certain things have to be executed in a strict order, other can be done meanwhile. For example it would be absurdly comical to iron the clothes before putting them into the dryer, while it would be time-efficient to prepare food while the laundry is in the washing machine. And even though the logic behind this seems to be obvious, but only as long as it concerns familiar environment."
     ],
-    "extrav": ["/images/boxlayout1.png"]
+    "extrav": "/images/boxlayout1.png",
+    "extraf": ["/images/room.png","/images/persp.png"]
   },
   {
     "group": "code",
@@ -75,7 +78,7 @@
   {
     "group": "visual",
     "project": "foo",
-    "bckimg": "/images/foopho-crops/grape.png",
+    "bckimg": "/images/foopho-crops/eggel.png",
     "title": "foopho",
     "captions": "foopho",
     "date": "Dec 2015",
@@ -92,12 +95,12 @@
   },
   {
     "group": "visual",
-    "project": "oooh",
-    "bckimg": "/images/Oo.png",
+    "project": "lotemplate",
+    "bckimg": "/images/template.png",
     "title": "for all the lovers of the off-brand coke out there",
     "captions": "co",
     "date": "May 2017",
-    "hreff": "/projects/oooh"
+    "hreff": "/projects/lotemplate"
   },
   {
     "group": "visual",

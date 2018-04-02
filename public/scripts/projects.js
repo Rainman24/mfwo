@@ -99,15 +99,15 @@ $(document).ready(function(){
 
 	})
 
-	$.get('/json/timespec.json',function(data){
+	// $.get('/json/timespec.json',function(data){
 
-		if(data.project==$('div.extrav')[0].id){
+	// 	if(data.project==$('div.extrav')[0].id){
 
-			data.extra.forEach(function(item){
-				// console.log(item)
-			})
-		}
+	// 		data.extra.forEach(function(item){
+	// 			// console.log(item)
+	// 		})
+	// 	}
 
-	})
+	// })
 
 })

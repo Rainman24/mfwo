@@ -2,19 +2,19 @@
   {
     "resume": [
       "This website is a developing portfolio of my mixed media and programming projects and was made with an intention to visually communicate my 'soft' skills from the CV section. The website will be regularly updated with more materials, descriptions and extra functionality.",
-      "Currently I am looking for a Junior Web Developer position/traineeship in Amsterdam. I am fascinated with this new-found field of knowledge and excessively engaged in learning more on the daily basis since finishing the course. Yet I would like to continue my education and practice as a part of a bigger team of more experienced individuals and contribute to the best of my abilities.", "If anything presented on this websites strikes your interest, please feel free to contact me."
+      "Currently I am looking for a Junior Web Developer position/traineeship in Amsterdam. The projects in the Code section where made during the course at the NYCDA. I am very engaged in learning and applying new skills on the daily basis since finishing the course. Yet I would like to continue my practice as a part of a bigger team.", "If anything presented on this websites strikes your interest, please feel free to contact me."
     ]
   },
   {
     "education": [
-      "2009 Central Saint Martins, London – Fine Arts Exchange Program",
+      "2017/18 NYCDA Intensive Javascript Full Stack Developer Course",
+      "Group Show SELECTED at Looiersgracht 60",
+      "Nominee for the GRA Award 2016",
       "2011/2016 Gerrit Rietveld Academie",
       "2012/13 Fine Arts Department",
       "2013/14 Graphic Design",
       "2014/16 Audio Visual Department",
-      "Nominee for the GRA Award 2016",
-      "Group Show SELECTED at Looiersgracht 60",
-      "2017/18 NYCDA Intensive Javascript Full Stack Developer Course"
+      "2009 Central Saint Martins, London – Fine Arts Exchange Program"
     ]
   },
   {
@@ -32,6 +32,7 @@
       "PostgreSQL",
       "jQuery",
       "Ajax",
+      "Git",
       "HTML",
       "CSS",
       "Adobe InDesign",

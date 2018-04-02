@@ -25,14 +25,15 @@ $(document).ready(function(){
 			$(eduli).each(function(index,element){
 				var text = $(element).text()
 
-				if(index==5){
-					$(element).html(`<a target='_blank' href=${links[0]}>${text}</a>`)
-				}
-				if(index==6){
+				if(index==1){
 					$(element).html(`<a target='_blank' href=${links[1]}>${text}</a>`)
+				}
+				if(index==2){
+					$(element).html(`<a target='_blank' href=${links[0]}>${text}</a>`)
 				}
 			})
 		}
+
 
 		data[3].skills.forEach(function(item){
 

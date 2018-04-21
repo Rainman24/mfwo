@@ -54,6 +54,10 @@ block routes
 
 						iframe(class='iframe' id='iframe' src=item.screencast width="900" height="563" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
 
+						if item.gitrepo
+
+							a(class='gitrepo' target='_blank' href=item.gitrepo) Here you can see the git repository of this project
+
 						if item.extra
 
 							div(class='extrav' id=item.project)

@@ -3,6 +3,7 @@ const boparser = require('body-parser')
 const pug = require('pug')
 const app = express()
 const fs = require('fs')
+const port = process.env.PORT || 3007
 
 app.use(boparser.urlencoded({extended:true}))
 app.use(express.static('public'))
@@ -58,6 +59,6 @@ app.get('/about', function(req,res){
 	})
 })
 
-app.listen(80, function(){
-	console.log('I am listening')
+app.listen(port, ()=> {
+	console.log(`I'm listening ${port}`)
 })

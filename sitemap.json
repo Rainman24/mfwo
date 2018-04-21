@@ -7,7 +7,8 @@
     "captions": "yes",
     "date": "January 2018",
     "hreff": "/projects/timelist",
-    "screencast": "https://player.vimeo.com/video/261029371?loop=1&title=0&byline=0&portrait=0",
+    "screencast": "https://player.vimeo.com/video/261029371?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+    "gitrepo" : "https://github.com/Rainman24/timelist",
     "extra": [
       "During last two weeks of the course we were assigned to build a final project. My goal was to build a three dimensional layout with functionality of a customised countdown list that works within the scope of today and tomorrow. This idea was meant to exercise both front and back-end abilities. Additionally I have decided to restrict myself on the early stages of the project by using minimal resources, in order to exercise the fundamentals and test their limits before transitioning to more advanced tools that I was already familiar with.",
       "Usually before disposing an empty package I compress it so it takes as little space in the bin, this habit is automatic and is done unconsciously and slightly negligent since the package itself is obsolete. Yet one night in the end of the course I was about to dispose of a cardboard tea package, but instead of reaping it apart I have carefully unfolded it to its 2 dimensional layout, and its outline reminded me of a website schema.",
@@ -20,13 +21,24 @@
   },
   {
     "group": "code",
+    "project": "uia",
+    "bckimg": "/images/cpro/UIAlist.png",
+    "title": "User Information App",
+    "captions": "JSON API using RESTful design and a autocomplete searchbar",
+    "date": "November 2017",
+    "hreff": "/projects/uia",
+    "screencast": "https://player.vimeo.com/video/265847319?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+    "gitrepo" : "https://github.com/Rainman24/UIA"
+  },
+  {
+    "group": "code",
     "project": "bwt",
     "bckimg": "/images/cpro/gal2.png",
     "title": "Bussines Website Template",
     "captions": "Simple Website built on week two on the course",
     "date": "November 2017",
     "hreff": "/projects/bwt",
-    "screencast": "https://player.vimeo.com/video/261057223?loop=1&title=0&byline=0&portrait=0"
+    "screencast": "https://player.vimeo.com/video/261057223?autoplay=1&loop=1&title=0&byline=0&portrait=0"
   },
   {
     "group": "code",
@@ -36,7 +48,8 @@
     "captions": "Gottcha",
     "date": "March 2018",
     "hreff": "/",
-    "screencast": "https://player.vimeo.com/video/261059350?loop=1&title=0&byline=0&portrait=0"
+    "screencast": "https://player.vimeo.com/video/261059350?autoplay=1&loop=1&title=0&byline=0&portrait=0",
+    "gitrepo": "https://github.com/Rainman24/mfwo"
   },
   {
     "group": "visual",

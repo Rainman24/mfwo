@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$('#projects').html(`
 		<ul class='projects'>
 			<li id='code'><a>Code</a></li>
-			<li id='visuals'><a>Visuals</a></li>
+			<li id='visuals'><a>Mixed Media</a></li>
 		</ul>
 		`)
 

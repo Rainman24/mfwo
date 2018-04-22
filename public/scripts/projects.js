@@ -58,7 +58,7 @@ $(document).ready(function(){
 		
 	})
 
-	if(window.location.href.toString().length-window.location.href.toString().lastIndexOf('projects')>=9){
+	if(window.location.href.toString().length-window.location.href.toString().lastIndexOf('projects')>=10){
 
 		var contents = $('div.gallery')
 
@@ -115,7 +115,7 @@ $(document).ready(function(){
 	var visualCSS = $('#visuals').css('color');
 	var codeCSS = $('#code').css('color');
 
-	console.log(titles)
+	// console.log(titles)
 
 	$(titles).each(function(index,element){
 
@@ -125,7 +125,6 @@ $(document).ready(function(){
 				element.style.fontWeight = 'bold';
 				element.style.fontStyle = 'italic';
 				$('#code').attr('style', 'color: navy')
-				$('#code').attr('style', 'background').attr('style', 'color:white')
 			}
 			if(element.dataset.group=='visual'){
 

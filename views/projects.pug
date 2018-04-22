@@ -27,7 +27,13 @@ block routes
 	div.gallery
 
 		if projects
-			div.intro
+			div.titles
+
+				ul
+					each item in cont
+
+						li(data-group=item.group)
+							a(target='_blank' href=item.hreff) #{item.title}
 
 		each item in cont
 
@@ -74,6 +80,5 @@ block routes
 
 									p #{val}	
 
-
-	link(rel='stylesheet', href='/styles/projects.css')
 	script(src='/scripts/projects.js')
+	link(rel='stylesheet', href='/styles/projects.css')

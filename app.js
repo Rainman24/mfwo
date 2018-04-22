@@ -30,11 +30,15 @@ app.get('/projects', function(req,res){
 		if(err) {throw err}
 	
 		var projects = JSON.parse(data)
+		var projectTitles = projects.map(t => t.title)
+		var projectLinks = projects.map(l => l.hreff)
 
 		res.render('projects',{
 			cont: projects,
 			projects: true,
-			title: 'Projects'
+			title: 'Projects',
+			ptitles: projectTitles,
+			plinks: projectLinks
 		})
 	})
 })

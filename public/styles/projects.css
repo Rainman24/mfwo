@@ -13,6 +13,11 @@ body {
 	cursor: pointer;
 }
 
+.nav a:hover{
+	color: white;
+	text-shadow: 1px 1px 4px #000000;
+}
+
 ul.visuals {
 	margin: 0;
 	padding: 0;
@@ -149,13 +154,13 @@ img.ext {
 	grid-row: 1/2;
 }
 
-div.extra {
+/*div.extra {
 	display: block;
 	margin: auto;
 	height: 100%;
 	min-height: 82vh;
 	grid-row: 1/2;
-}
+}*/
 
 div.extra {
 	display: grid;
@@ -223,4 +228,46 @@ a.gitrepo {
 	font-family: Arial;
 }
 
+div.titles {
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
 
+.titles ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-auto-rows: minmax(5vh,10vh);
+	grid-column-gap: 2vw;
+	align-content: space-evenly;
+	/*justify-items: center;*/
+}
+
+.titles li {
+	align-self: center;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+}
+
+.titles li:nth-child(odd) {
+	text-align: right;
+}
+
+.titles li:nth-child(even) {
+	text-align: left;
+}
+
+.titles a {
+	text-decoration: none;
+	color: black;
+}
+
+.change {
+	color: blue;
+}

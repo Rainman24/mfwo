@@ -25,13 +25,19 @@ $(document).ready(function(){
 		
 	})
 
+	// $('#top div.nav').append(`
+	// 	<div id='projects' class='projects'><a href='/projects'>Projects</a></div>
+	// 	`)
+
 	$('#top div.nav').append(`
-		<div id='projects' class='projects'><a href='/projects'>Projects</a></div>
-		`)
+		<ul id='abcode'>
+			<li class='about'><a id='about' href='/about'>About</a></li>
+			<li class='projects'><a id='code' href='/projects'>Code</a></li>
+		</ul>`)
 
 	$('#bottom div.nav').append(`
-		<ul id='abco'>
-			<li class='about'><a id='about' href='/about'>About</a></li>
+		<ul id='mmcon'>
+			<li class='projects'><a id='visuals' href='/projects'>Mixed Media</a></li>
 			<li class='contact'><a id='contact'>Contact</a></li>
 		</ul>`)
 

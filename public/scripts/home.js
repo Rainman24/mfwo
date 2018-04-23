@@ -1,19 +1,19 @@
 $(document).ready(function(){
 
 	for(i=0;i<3;i++){
-		$('.horizontal').append(`<div data-position=${i}></div>`)
+		// $('.horizontal').append(`<div data-position=${i}></div>`)
 		$('.vertical').append(`<div data-position=${i}></div>`)
 	}
 
-	$('.horizontal').each(function(index,element){
+	// $('.horizontal').each(function(index,element){
 
-		$(element.childNodes).each(function(index,element){
-			if(element.dataset.position==1){
-				$(element).attr('class', 'nav')
-			}
-		})
+	// 	$(element.childNodes).each(function(index,element){
+	// 		if(element.dataset.position==1){
+	// 			$(element).attr('class', 'nav')
+	// 		}
+	// 	})
 		
-	})
+	// })
 
 	$('.vertical').each(function(index,element){
 
@@ -29,13 +29,13 @@ $(document).ready(function(){
 	// 	<div id='projects' class='projects'><a href='/projects'>Projects</a></div>
 	// 	`)
 
-	$('#top div.nav').append(`
+	$('div#top.nav').append(`
 		<ul id='abcode'>
 			<li class='about'><a id='about' href='/about'>About</a></li>
 			<li class='projects'><a id='code' href='/projects'>Code</a></li>
 		</ul>`)
 
-	$('#bottom div.nav').append(`
+	$('div#bottom.nav').append(`
 		<ul id='mmcon'>
 			<li class='projects'><a id='visuals' href='/projects'>Mixed Media</a></li>
 			<li class='contact'><a id='contact'>Contact</a></li>
@@ -44,11 +44,10 @@ $(document).ready(function(){
 	var modal = $('#modal')
 
 	$('#contact').on('click', function(){
-		modal[0].style.display = 'block'
+		$('#modal').fadeIn(800)
 
 		$('#modx').on('click',function(){
-
-			modal[0].style.display = 'none'
+			$('#modal').fadeOut(400)
 		})
 	})
 

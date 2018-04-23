@@ -6,6 +6,7 @@ body {
 
 #bottom {
 	background: rgba(255,255,255,0.9);
+	/*transition: 1s;*/
 	z-index: 1;
 }
 
@@ -70,6 +71,7 @@ div.gallery {
 	margin: auto;
 	padding: 10;
 	position: relative;
+	mix-blend-mode: difference;
 }
 
 img.ext {
@@ -187,7 +189,9 @@ div.extra {
 	transform: rotate(45deg);
 	font-size: 7vh;
 	cursor: pointer;
-	background: rgba(255,255,70,0,7);
+	/*background: rgba(255,255,255,0.7);*/
+	mix-blend-mode: difference;
+	color: white;
 }
 
 .preview:hover p {
@@ -255,19 +259,24 @@ div.titles {
 	text-transform: uppercase;
 }
 
-.titles li:nth-child(odd) {
+.titles li[data-group='code'] {
+	grid-column: 1/2;
 	text-align: right;
 }
 
-.titles li:nth-child(even) {
-	text-align: left;
+.titles li[data-group='visual'] {
+	grid-column: 2/3;
+	grid-row: span;
 }
 
 .titles a {
 	text-decoration: none;
 	color: black;
+	/*transition: 1s;
+	-webkit-transition: color 1s;*/
 }
 
-.change {
-	color: blue;
+.titles a:hover {
+	font-style: italic;
+	color: grey;
 }

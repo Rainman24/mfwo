@@ -22,7 +22,7 @@
   {
     "group": "code",
     "project": "uia",
-    "bckimg": "/images/cpro/UIAlist.png",
+    "bckimg": "/images/cpro/UIAadduser.png",
     "title": "User Information App",
     "captions": "JSON API using RESTful design and a autocomplete searchbar",
     "date": "November 2017",
@@ -43,7 +43,7 @@
   {
     "group": "code",
     "project": "$(this)",
-    "bckimg": "/images/cpro/taugrid.png",
+    "bckimg": "/images/cpro/gridTemplate.png",
     "title": "This is it",
     "captions": "Gottcha",
     "date": "March 2018",

@@ -1,19 +1,8 @@
 $(document).ready(function(){
 
 	for(i=0;i<3;i++){
-		// $('.horizontal').append(`<div data-position=${i}></div>`)
 		$('.vertical').append(`<div data-position=${i}></div>`)
 	}
-
-	// $('.horizontal').each(function(index,element){
-
-	// 	$(element.childNodes).each(function(index,element){
-	// 		if(element.dataset.position==1){
-	// 			$(element).attr('class', 'nav')
-	// 		}
-	// 	})
-		
-	// })
 
 	$('.vertical').each(function(index,element){
 
@@ -24,10 +13,6 @@ $(document).ready(function(){
 		})
 		
 	})
-
-	// $('#top div.nav').append(`
-	// 	<div id='projects' class='projects'><a href='/projects'>Projects</a></div>
-	// 	`)
 
 	$('div#top.nav').append(`
 		<ul id='abcode'>
@@ -51,34 +36,9 @@ $(document).ready(function(){
 		})
 	})
 
-	var introbck = $('.intro').css('background');
-	var mframe = $('div.display').css('border');
+	// var canvas = document.getElementById('canvas');
+	// var canvasContext = canvas.getContext('2d');
 
-	$('.intro').mousemove(function(e) {
-
-	    x = e.pageX - this.offsetLeft;
-	    y = e.pageY - this.offsetTop;
-	    xy = x + y;
-
-	    dynamicgrad = "linear-gradient(" + xy + "deg, rgba(245,245,245,1), rgba(125,125,125,0.4))";
-
-	    $(this).css({
-	      'background': dynamicgrad
-	    })
-
-	    $('div.display').css({
-	    	border:'0'
-	    })
-
-	  }).mouseleave(function() {
-
-	    $(this).css({
-	      background: introbck
-	    })
-
-	    $('div.display').css({
-	    	border:mframe
-	    })
-	 });
+	// canvasContext.fillRect(100,50,72,21);
 	
 })

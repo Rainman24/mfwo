@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	$(".fadein").delay(500).fadeIn(1000)
+
 	$.get('/json/about.json', function(data){
 
 		data[0].resume.forEach(function(item){
@@ -41,7 +43,5 @@ $(document).ready(function(){
 		})
 
 	})
-
-	$(".fadein").hide(0).delay(500).fadeIn(1000)
 
 })

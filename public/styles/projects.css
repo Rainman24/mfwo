@@ -55,6 +55,12 @@ ul.code {
 	inset -2px -2px 1px rgba(0, 0, 0, .2),
 	inset 2px 2px 1px rgba(0, 0, 0, .2);
 	height: 70%;
+	opacity: 0.4;
+	justify-content: center;
+}
+
+.visuals li:hover, .code li:hover {
+	opacity: 1;
 }
 
 div.gallery {
@@ -102,13 +108,14 @@ img.ext {
 	font-size: 3vh;
 	padding: 20;
 	font-weight: bold;
-	color: rgba(255,255,255,0);
 	grid-row: 1/2;
 	align-self: center;
 	font-family: 'Old Standard TT', sans-serif;
 	width: 50%;
 	margin: auto;
-	text-align: center;
+	color: white;
+	-webkit-text-stroke: 1px rgba(70,40,40,1);
+	justify-self: center;
 }
 
 .visuals li:nth-child(1) {
@@ -124,7 +131,7 @@ img.ext {
 }
 
 .code li:nth-child(2) {
-	background-position: 60% 50%;
+	background-position: 50% 53%;
 }
 
 .code li:nth-child(3) {
@@ -136,16 +143,12 @@ img.ext {
 }
 
 .visuals a:hover, .code a:hover {
-	font-style: italic;
-	color: white;
-	-webkit-text-stroke: 1px rgba(70,40,40,1);
+	color: rgba(255,255,255,0);
+	-webkit-text-stroke: 0;
 }
 
-.code a:hover {
-	background: radial-gradient(
-		rgba(255,255,255,0.8),
-		rgba(255,255,255,0.1),
-		rgba(255,255,255,0));
+.visuals li a:hover, .code li a:hover {
+	-webkit-text-stroke: 0;
 }
 
 #iframe {
@@ -155,14 +158,6 @@ img.ext {
 	max-width: 100%;
 	grid-row: 1/2;
 }
-
-/*div.extra {
-	display: block;
-	margin: auto;
-	height: 100%;
-	min-height: 82vh;
-	grid-row: 1/2;
-}*/
 
 div.extra {
 	display: grid;
@@ -228,8 +223,12 @@ a.gitrepo {
 	display: block;
 	margin: 10 auto;
 	text-transform: uppercase;
-	color: blue;
+	color: skyblue;
 	font-family: Arial;
+}
+
+a.gitrepo:hover {
+	text-shadow: 0px 0px 14px rgba(200,200,200,1);
 }
 
 div.titles {
@@ -272,8 +271,6 @@ div.titles {
 .titles a {
 	text-decoration: none;
 	color: black;
-	/*transition: 1s;
-	-webkit-transition: color 1s;*/
 }
 
 .titles a:hover {

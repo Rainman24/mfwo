@@ -1,13 +1,8 @@
 $(document).ready(function(){
 
-	var navigation = $('.nav')
+	$("#gallery").fadeIn(1000)
 
-	// $('#projects').html(`
-	// 	<ul class='projects'>
-	// 		<li id='code'><a>Code</a></li>
-	// 		<li id='visuals'><a>Mixed Media</a></li>
-	// 	</ul>
-	// 	`)
+	var navigation = $('.nav')
 
 	var direction = $('.direction')
 
@@ -124,11 +119,7 @@ $(document).ready(function(){
 
 			$('#top2').fadeOut(400);
 			$('#bottom2').fadeOut(400);
-			// $('#code').removeAttr('style')
-			// $('#bottom').removeAttr('style')
 		})
 	})
-
-	$(".gallery").hide(0).delay(500).fadeIn(1000)
 
 })

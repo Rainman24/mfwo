@@ -223,7 +223,8 @@ a.gitrepo {
 	display: block;
 	margin: 10 auto;
 	text-transform: uppercase;
-	color: skyblue;
+	/*color: skyblue;*/
+	color: darkcyan;
 	font-family: Arial;
 }
 
@@ -271,9 +272,10 @@ div.titles {
 .titles a {
 	text-decoration: none;
 	color: black;
+	font-size: 2vw;
 }
 
 .titles a:hover {
-	font-style: italic;
+	letter-spacing: 4px;
 	color: grey;
 }

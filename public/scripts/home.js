@@ -36,9 +36,39 @@ $(document).ready(function(){
 		})
 	})
 
-	// var canvas = document.getElementById('canvas');
-	// var canvasContext = canvas.getContext('2d');
+	var canvas = document.getElementById('canvas');
+	var canvasContext = canvas.getContext('2d');
+
+	// canvasContext.fillStyle = 'rgba(0,0,50,1)';
 
 	// canvasContext.fillRect(100,50,72,21);
+
+	$(canvas).mousemove(function(e) {
+
+		canvasContext.fillStyle = 'rgba(0,0,50,1)';
+
+	    x = e.pageX - canvas.offsetLeft;
+	    y = e.pageY - canvas.offsetTop;
+	    console.log(x)
+
+	    // x = 1
+	    // y = 2
+
+
+
+		canvasContext.fillRect(0,0,x,y);
+
+	}).mouseleave(function(e) {
+
+		x = e.pageX - canvas.offsetLeft;
+	    y = e.pageY - canvas.offsetTop;
+
+	 // x= 4
+	 // y = 7
+
+		canvasContext.fillStyle = 'rgba(250,200,250,1)';
+		canvasContext.fillRect(0,0,x,y);
+	    
+	 })
 	
 })

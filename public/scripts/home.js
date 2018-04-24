@@ -53,7 +53,7 @@ $(document).ready(function(){
 
 	var ctx = canvas.getContext('2d');
 
-	ctx.fillStyle = 'rgba(140,142,142,0.9)';
+	ctx.fillStyle = 'rgba(190,192,192,0.9)';
 
 	ctx.fillRect(0,0,canvas.width,canvas.height);
 
@@ -65,11 +65,32 @@ $(document).ready(function(){
 
 	ctx.fillRect(canvas.width/2-71,canvas.height/2-71,250,250);
 
-	ctx.strokeStyle = 'rgba(0,0,0,0)';
+	var about = document.getElementById('about')
+	var code = document.getElementById('code')
+	var visuals = document.getElementById('visuals')
+	var contact = document.getElementById('contact')
+	console.log(code.offsetLeft)
+
+	ctx.strokeStyle = 'rgba(0,0,0,1)';
 	ctx.lineWidth = 1;
 
 	ctx.beginPath();
-	ctx.moveTo(300,0);
+	ctx.moveTo(about.offsetLeft,0);
+	ctx.lineTo(canvas.width/2+35,canvas.height/2+35);
+	ctx.stroke();
+
+	ctx.beginPath();
+	ctx.moveTo(code.offsetLeft,0);
+	ctx.lineTo(canvas.width/2+35,canvas.height/2+35);
+	ctx.stroke();
+
+	ctx.beginPath();
+	ctx.moveTo(visuals.offsetLeft,canvas.height);
+	ctx.lineTo(canvas.width/2+35,canvas.height/2+35);
+	ctx.stroke();
+
+	ctx.beginPath();
+	ctx.moveTo(contact.offsetLeft,canvas.height);
 	ctx.lineTo(canvas.width/2+35,canvas.height/2+35);
 	ctx.stroke();
 

@@ -59,8 +59,14 @@ script.
 
 		ctx.fillRect(0,0,canvas.width,canvas.height);
 
-		ctx.fillStyle = 'rgba(255,255,255,1)';
+		//- ctx.fillStyle = 'rgba(255,255,255,1)';
 		//- ctx.fillStyle = 'radial-gradient(rgba(140,150,150,1),rgba(255,255,255,1))';
+
+		var grd=ctx.createRadialGradient(71,71,51,71,71,41);
+		grd.addColorStop(0,'white');
+		grd.addColorStop(1,'grey');
+
+		ctx.fillStyle = grd;
 
 		ctx.fillRect(canvas.width/2-71,canvas.height/2-71,142,142);
 

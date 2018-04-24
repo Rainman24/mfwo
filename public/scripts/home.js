@@ -65,8 +65,8 @@ $(document).ready(function(){
 
 	ctx.fillRect(canvas.width/2-71,canvas.height/2-71,250,250);
 
-	ctx.strokeStyle = 'goldenrod';
-	ctx.lineWidth = 2;
+	ctx.strokeStyle = 'rgba(0,0,0,0)';
+	ctx.lineWidth = 1;
 
 	ctx.beginPath();
 	ctx.moveTo(300,0);

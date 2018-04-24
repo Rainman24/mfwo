@@ -53,17 +53,17 @@ $(document).ready(function(){
 
 	var ctx = canvas.getContext('2d');
 
-	ctx.fillStyle = 'rgba(140,150,150,1)';
+	ctx.fillStyle = 'rgba(140,142,142,0.9)';
 
 	ctx.fillRect(0,0,canvas.width,canvas.height);
 
-	var grd=ctx.createRadialGradient(canvas.width/2,canvas.height/2,85,canvas.width/2,canvas.height/2,1);
-		grd.addColorStop(0,'rgba(140,150,150,1)');
+	var grd=ctx.createRadialGradient(canvas.width/2+35,canvas.height/2+35,85,canvas.width/2+35,canvas.height/2+35,1);
+		grd.addColorStop(0,'rgba(140,142,142,0.1)');
 		grd.addColorStop(1,'white');
 
 	ctx.fillStyle = grd;
 
-	ctx.fillRect(canvas.width/2-71,canvas.height/2-71,150,150);
+	ctx.fillRect(canvas.width/2-71,canvas.height/2-71,250,250);
 
 	}
 	

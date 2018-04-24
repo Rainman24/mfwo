@@ -3,7 +3,7 @@ const boparser = require('body-parser')
 const pug = require('pug')
 const app = express()
 const fs = require('fs')
-const port = process.env.PORT || 3007
+const port = process.env.PORT || 80
 
 app.use(boparser.urlencoded({extended:true}))
 app.use(express.static('public'))

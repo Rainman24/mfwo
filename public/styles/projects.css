@@ -92,7 +92,6 @@ div.gallery {
 	margin: auto;
 	padding: 10;
 	position: relative;
-	mix-blend-mode: difference;
 }
 
 img.ext {
@@ -238,7 +237,6 @@ a.gitrepo {
 	display: block;
 	margin: 10 auto;
 	text-transform: uppercase;
-	/*color: skyblue;*/
 	color: darkcyan;
 	font-family: Arial;
 }
@@ -265,13 +263,10 @@ div.titles {
 	grid-auto-rows: minmax(5vh,10vh);
 	grid-column-gap: 2vw;
 	align-content: space-evenly;
-	/*justify-items: stretch;*/
 }
 
 .titles li {
 	align-self: center;
-	/*align-self: stretch;
-	padding-top: 7%;*/
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 }

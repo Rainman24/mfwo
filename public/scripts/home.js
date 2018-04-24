@@ -42,8 +42,8 @@ $(document).ready(function(){
 	var display = document.querySelector('.display')
 	
 
-	console.log(intro.clientWidth)
-	console.log(display.clientHeight)
+	// console.log(intro.clientWidth)
+	// console.log(display.clientHeight)
 
 
 	canvas.width = intro.clientWidth
@@ -69,7 +69,7 @@ $(document).ready(function(){
 	var code = document.getElementById('code')
 	var visuals = document.getElementById('visuals')
 	var contact = document.getElementById('contact')
-	console.log(code.offsetLeft)
+	// console.log(code.offsetLeft)
 
 	ctx.strokeStyle = 'rgba(0,0,0,1)';
 	ctx.lineWidth = 1;

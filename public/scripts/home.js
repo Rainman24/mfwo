@@ -37,38 +37,30 @@ $(document).ready(function(){
 	})
 
 	var canvas = document.getElementById('canvas');
-	var canvasContext = canvas.getContext('2d');
+	var intro = document.getElementById('intro')
 
-	// canvasContext.fillStyle = 'rgba(0,0,50,1)';
+	var display = document.querySelector('.display')
+	
 
-	// canvasContext.fillRect(100,50,72,21);
-
-	$(canvas).mousemove(function(e) {
-
-		canvasContext.fillStyle = 'rgba(0,0,50,1)';
-
-	    x = e.pageX - canvas.offsetLeft;
-	    y = e.pageY - canvas.offsetTop;
-	    console.log(x)
-
-	    // x = 1
-	    // y = 2
+	console.log(intro.clientWidth)
+	console.log(display.clientHeight)
 
 
+	// canvas.width = intro.clientWidth
+	// canvas.height = display.clientHeight
 
-		canvasContext.fillRect(0,0,x,y);
+	// if(canvas){
 
-	}).mouseleave(function(e) {
+	// var ctx = canvas.getContext('2d');
 
-		x = e.pageX - canvas.offsetLeft;
-	    y = e.pageY - canvas.offsetTop;
+	// ctx.fillStyle = 'rgba(140,150,150,1)';
 
-	 // x= 4
-	 // y = 7
+	// ctx.fillRect(0,0,canvas.width,canvas.height);
 
-		canvasContext.fillStyle = 'rgba(250,200,250,1)';
-		canvasContext.fillRect(0,0,x,y);
-	    
-	 })
+	// ctx.fillStyle = 'rgba(255,255,255,1)';
+
+	// ctx.fillRect(400,420,71,71);
+
+	// }
 	
 })

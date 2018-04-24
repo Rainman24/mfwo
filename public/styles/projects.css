@@ -70,6 +70,21 @@ div.gallery {
 	overflow-y: scroll;
 }
 
+::-webkit-scrollbar {
+    width: 11px;
+}
+ 
+::-webkit-scrollbar-track {
+    box-shadow: inset 1px 1px 5px rgba(240, 240, 240, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    border: 2px solid white;
+    background: linear-gradient(rgba(220,220,220,0.4),rgba(0,0,0,0.3));
+	box-shadow: inset 0px 0px 4px rgba(140, 140, 140, 0.3);
+}
+
 .gallery img {
 	max-width: 100%;
 	max-height: 80vh;
@@ -250,11 +265,13 @@ div.titles {
 	grid-auto-rows: minmax(5vh,10vh);
 	grid-column-gap: 2vw;
 	align-content: space-evenly;
-	/*justify-items: center;*/
+	/*justify-items: stretch;*/
 }
 
 .titles li {
 	align-self: center;
+	/*align-self: stretch;
+	padding-top: 7%;*/
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 }
@@ -262,17 +279,18 @@ div.titles {
 .titles li[data-group='code'] {
 	grid-column: 1/2;
 	text-align: right;
+	justify-self: end;
 }
 
 .titles li[data-group='visual'] {
 	grid-column: 2/3;
-	grid-row: span;
+	justify-self: start;
 }
 
 .titles a {
 	text-decoration: none;
 	color: black;
-	font-size: 2vw;
+	font-size: 1.3em;
 }
 
 .titles a:hover {

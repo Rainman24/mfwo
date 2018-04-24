@@ -32,7 +32,7 @@ html
 		
 				div.display
 
-					div.intro
+					div.intro#intro
 
 						canvas#canvas
 
@@ -42,3 +42,31 @@ html
 
 					block routes
 
+script.
+
+	var canvas = document.getElementById('canvas');
+	var intro = document.getElementById('intro')
+	var display = document.querySelector('.display')
+
+	function flex(){
+
+		canvas.width = intro.clientWidth
+		canvas.height = display.clientHeight
+
+		var ctx = canvas.getContext('2d');
+
+		ctx.fillStyle = 'rgba(140,150,150,1)';
+
+		ctx.fillRect(0,0,canvas.width,canvas.height);
+
+		ctx.fillStyle = 'rgba(255,255,255,1)';
+		//- ctx.fillStyle = 'radial-gradient(rgba(140,150,150,1),rgba(255,255,255,1))';
+
+		ctx.fillRect(canvas.width/2-71,canvas.height/2-71,142,142);
+
+		console.log(intro.clientWidth)
+		console.log(display.clientHeight)
+
+	}
+
+	window.onresize = flex

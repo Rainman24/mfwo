@@ -63,12 +63,20 @@ script.
 		//- ctx.fillStyle = 'radial-gradient(rgba(140,150,150,1),rgba(255,255,255,1))';
 
 		var grd=ctx.createRadialGradient(canvas.width/2+71,canvas.height/2+71,85,canvas.width/2+71,canvas.height/2+71,1);
-		grd.addColorStop(0,'rgba(140,142,142,0.4)');
+		grd.addColorStop(0,'rgba(140,142,142,0)');
 		grd.addColorStop(1,'white');
 
 		ctx.fillStyle = grd;
 
 		ctx.fillRect(canvas.width/2-71,canvas.height/2-71,canvas.width/4.5+71,canvas.height/3+71);
+
+		ctx.strokeStyle = 'black';
+		ctx.lineWidth = 1;
+
+		ctx.beginPath();
+		ctx.moveTo(0,0);
+		ctx.lineTo(canvas.width/2+71,canvas.height/2+71);
+		ctx.stroke();
 
 		console.log(intro.clientWidth)
 		console.log(display.clientHeight)

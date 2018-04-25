@@ -7,6 +7,7 @@
     "captions": "yes",
     "date": "January 2018",
     "hreff": "/projects/timelist",
+    "preview": "The enormous room on the ground floor faced towards the north. Cold for all the summer beyond the panes, for all the tropical heat of the room itself, a harsh thin light glared through the windows, hungrily seeking some draped lay figure, some pallid shape of academic goose-flesh, but finding only the glass and nickel and bleakly shining porcelain of a laboratory. Wintriness responded to wintriness. The overalls of the workers were white, their hands gloved with a pale corpse-coloured rubber. The light was frozen, dead, a ghost. Only from the yellow barrels of the microscopes did it borrow a certain rich and living substance, lying along the polished tubes like butter, streak after luscious streak in long recession down the work tables.",
     "screencast": "https://player.vimeo.com/video/261029371?autoplay=1&loop=1&title=0&byline=0&portrait=0",
     "gitrepo" : "https://github.com/Rainman24/timelist",
     "extra": [
@@ -27,6 +28,7 @@
     "captions": "JSON API using RESTful design and a autocomplete searchbar",
     "date": "November 2017",
     "hreff": "/projects/uia",
+    "preview": "The enormous room on the ground floor faced towards the north. Cold for all the summer beyond the panes, for all the tropical heat of the room itself, a harsh thin light glared through the windows, hungrily seeking some draped lay figure, some pallid shape of academic goose-flesh, but finding only the glass and nickel and bleakly shining porcelain of a laboratory. Wintriness responded to wintriness. The overalls of the workers were white, their hands gloved with a pale corpse-coloured rubber. The light was frozen, dead, a ghost. Only from the yellow barrels of the microscopes did it borrow a certain rich and living substance, lying along the polished tubes like butter, streak after luscious streak in long recession down the work tables.",
     "screencast": "https://player.vimeo.com/video/265847319?autoplay=1&loop=1&title=0&byline=0&portrait=0",
     "gitrepo" : "https://github.com/Rainman24/UIA"
   },
@@ -38,6 +40,7 @@
     "captions": "Simple Website built on week two on the course",
     "date": "November 2017",
     "hreff": "/projects/bwt",
+    "preview": "Standard men and women; in uniform batches. The whole of a small factory staffed with the products of a single bokanovskified egg.",
     "screencast": "https://player.vimeo.com/video/261057223?autoplay=1&loop=1&title=0&byline=0&portrait=0"
   },
   {
@@ -48,6 +51,7 @@
     "captions": "Gottcha",
     "date": "March 2018",
     "hreff": "/",
+    "preview": "Standard men and women; in uniform batches. The whole of a small factory staffed with the products of a single bokanovskified egg.",
     "screencast": "https://player.vimeo.com/video/261059350?autoplay=1&loop=1&title=0&byline=0&portrait=0",
     "gitrepo": "https://github.com/Rainman24/mfwo"
   },
@@ -59,6 +63,7 @@
     "captions": "Tribute to the progressive quality of public service announcements in Amsterdam",
     "date": "April 2015",
     "hreff": "/projects/oudekerk15",
+    "preview": "For a modernist movement in verse, Acmeism was curiously conserva­ tive both in theme and technique. Mandelstam lived at a time when inno­ vation in the prosodic elements of poetry was highly esteemed, but his rhymes and meters might, with few exceptions, seem familiar to the con­ temporaries of Pushkin. The diction of his slow, deliberately impeded lines occasionally recalled an even earlier age, that of Derzhavin. But the imagery, the life’s blood of his poetry, was wholly of his time, and of ours.",
     "screencast": "https://player.vimeo.com/video/183824434?title=0&byline=0&portrait=0"
   },
   {
@@ -68,7 +73,8 @@
     "title": "Non Sense",
     "captions": "Windows 95 Dual Core Processor",
     "date": "April 2017",
-    "hreff": "/projects/nonsense"
+    "hreff": "/projects/nonsense",
+    "preview": "Almost exactly one year from the time of his release from Voronezh, Mandelstam was undergoing treatment at a sanatorium near Charuste, a small station not far from Tarusa, when he was arrested again (1 May 1938)."
   },
   {
     "group": "visual",
@@ -77,7 +83,8 @@
     "title": "Common Sense",
     "captions": "Hello",
     "date": "April 2017",
-    "hreff": "/projects/commonsense"
+    "hreff": "/projects/commonsense",
+    "preview": "Almost exactly one year from the time of his release from Voronezh, Mandelstam was undergoing treatment at a sanatorium near Charuste, a small station not far from Tarusa, when he was arrested again (1 May 1938)."
   },
   {
     "group": "visual",
@@ -86,7 +93,8 @@
     "title": "Humanism",
     "captions": "Italy",
     "date": "August 2013",
-    "hreff": "/projects/it"
+    "hreff": "/projects/it",
+    "preview": "The solace which I find in this is not, of course, what Nabokov has to say about “ noise,” since he specifically rejects it in favor of “ hubbub.” It is the evidence of his uneasiness with the latter, which produces the delight­ ful change-ringing on the various shades of shum. As in all such cases, the final choice is a matter of taste."
   },
   {
     "group": "visual",
@@ -95,7 +103,8 @@
     "title": "Kitchen Counter Entropy",
     "captions": "foopho",
     "date": "Dec 2015",
-    "hreff": "/projects/foo"
+    "hreff": "/projects/foo",
+    "preview": "The solace which I find in this is not, of course, what Nabokov has to say about “ noise,” since he specifically rejects it in favor of “ hubbub.” It is the evidence of his uneasiness with the latter, which produces the delight­ ful change-ringing on the various shades of shum. As in all such cases, the final choice is a matter of taste."
   },
   {
     "group": "visual",

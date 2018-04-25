@@ -282,6 +282,31 @@ div.titles {
 	justify-self: start;
 }
 
+li.hints{
+	background: linear-gradient(rgba(190,190,190,0.7),rgba(255,255,255,0.3));
+	text-transform: none;
+	padding: 5;
+	display: none;
+}
+
+li.hints[data-preview='code'] {
+	grid-column: 2/3;
+	justify-self: start;
+	align-self: start;
+}
+/*
+li.hints[data-preview='visual'] {
+	grid-column: 1/2;
+	justify-self: end;
+	align-self: start;
+	background: linear-gradient(rgba(190,190,190,0.7),rgba(255,255,255,0.3));
+	text-transform: none;
+	text-align: right;
+	padding: 5;
+}*/
+
+
+
 .titles a {
 	text-decoration: none;
 	color: black;
@@ -292,3 +317,6 @@ div.titles {
 	letter-spacing: 4px;
 	color: grey;
 }
+
+
+

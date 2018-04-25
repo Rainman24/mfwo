@@ -110,6 +110,8 @@ $(document).ready(function(){
 			if(element.dataset.group=='code'){
 
 				$('#top2').fadeIn(400);
+
+				
 			}
 			if(element.dataset.group=='visual'){
 

@@ -46,10 +46,13 @@ $(document).ready(function(){
 	// console.log(display.clientHeight)
 
 
-	canvas.width = intro.clientWidth
-	canvas.height = display.clientHeight
+	// canvas.width = intro.clientWidth
+	// canvas.height = display.clientHeight
 
 	if(canvas){
+
+	canvas.width = intro.clientWidth
+	canvas.height = display.clientHeight
 
 	var ctx = canvas.getContext('2d');
 

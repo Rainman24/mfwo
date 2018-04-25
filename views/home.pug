@@ -59,25 +59,6 @@ script.
 
 		ctx.fillRect(0,0,canvas.width,canvas.height);
 
-		//- var grd=ctx.createRadialGradient(canvas.width/2+71,canvas.height/2+71,85,canvas.width/2+71,canvas.height/2+71,1);
-		//- grd.addColorStop(0,'rgba(140,142,142,0)');
-		//- grd.addColorStop(1,'white');
-
-		//- ctx.fillStyle = grd;
-
-		//- ctx.fillRect(canvas.width/2-71,canvas.height/2-71,canvas.width/4.5+71,canvas.height/3+71);
-
-		//- ctx.strokeStyle = 'black';
-		//- ctx.lineWidth = 1;
-
-		//- ctx.beginPath();
-		//- ctx.moveTo(0,0);
-		//- ctx.lineTo(canvas.width/2+71,canvas.height/2+71);
-		//- ctx.stroke();
-
-		//- console.log(intro.clientWidth)
-		//- console.log(display.clientHeight)
-
 		var grd=ctx.createRadialGradient(canvas.width/2+35,canvas.height/2+35,85,canvas.width/2+35,canvas.height/2+35,1);
 		grd.addColorStop(0,'rgba(140,142,142,0)');
 		grd.addColorStop(1,'white');
@@ -90,7 +71,7 @@ script.
 		var code = document.getElementById('code')
 		var visuals = document.getElementById('visuals')
 		var contact = document.getElementById('contact')
-		console.log(code.offsetLeft)
+		//- console.log(code.offsetLeft)
 
 		ctx.strokeStyle = 'rgba(0,0,0,1)';
 		ctx.lineWidth = 1;
@@ -116,5 +97,6 @@ script.
 		ctx.stroke();
 
 	}
+	
 
 	window.onresize = flex

@@ -102,26 +102,48 @@ $(document).ready(function(){
 	})
 
 
-	var titles = $('.titles li')
+
+
+	var titles = $('li.links')
+	var hintsP = document.querySelectorAll('.hints')
+
+	function displayHints(hintsArr,group,projectName){
+		var hints = Array.from(hintsP).filter(g => g.dataset.preview == group)
+		var match = hints.find((element) => element.dataset.project == projectName)
+		return match
+	}
 
 	$(titles).each(function(index,element){
 
+		var theHint
+
 		$(element).on('mouseenter',function(evnt){
+
 			if(element.dataset.group=='code'){
 
 				$('#top2').fadeIn(400);
 
-				
+				var thisproject = element.dataset.project
+				theHint = displayHints(hintsP,'code',thisproject)
+				$(theHint).fadeIn(400)
 			}
+
 			if(element.dataset.group=='visual'){
 
 				$('#bottom2').fadeIn(400);
+
+				var thisproject = element.dataset.project
+				theHint = displayHints(hintsP,'visual',thisproject)
+				$(theHint).fadeIn(400)
 			}
+
 		}).on('mouseleave', function(evnt){
 
+			$(theHint).fadeOut(400)
 			$('#top2').fadeOut(400);
 			$('#bottom2').fadeOut(400);
 		})
 	})
+
 
 })

@@ -124,6 +124,7 @@ $(document).ready(function(){
 				$('#top2').fadeIn(400);
 
 				var thisproject = element.dataset.project
+
 				theHint = displayHints(hintsP,'code',thisproject)
 				$(theHint).fadeIn(400)
 			}
@@ -133,7 +134,10 @@ $(document).ready(function(){
 				$('#bottom2').fadeIn(400);
 
 				var thisproject = element.dataset.project
+				// console.log(element.offsetTop)
 				theHint = displayHints(hintsP,'visual',thisproject)
+
+				// $(theHint).offset({top: parseInt(element.offsetTop)});
 				$(theHint).fadeIn(400)
 			}
 

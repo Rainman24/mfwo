@@ -53,9 +53,13 @@ $(document).ready(function(){
 		
 	})
 
+	var navp = $('#pnav')
+
 	if(window.location.href.toString().length-window.location.href.toString().lastIndexOf('projects')>=10){
 
 		var contents = $('div.gallery')
+
+		$('#bottom').css({background: 'rgba(255,255,255,0.9)', zIndex: '1'});
 
 		if(contents[0].childElementCount<2){
 			tooltip[0].style.visibility = 'hidden'
@@ -68,6 +72,27 @@ $(document).ready(function(){
 
 		    tooltip[0].style.top = (y + 12) + 'px';
 		    tooltip[0].style.left = (x + 12) + 'px';
+		})
+
+		navp[0].style.display = 'block'
+		var allProjects = $('#pnav p')
+
+		$('#pnav').on('mousemove',function(evnt){
+
+			var x = evnt.clientX,
+				y = evnt.clientY;
+
+				allProjects[0].style.top = (y + 5) + 'px';
+				allProjects[0].style.left = (x - 100) + 'px';
+
+			$('#pnav a').on('mouseenter', function(evnt){
+				
+				allProjects[0].style.display = 'block'
+			}).on('mouseleave', function(evnt){
+
+				allProjects[0].style.display = 'none'		
+			})
+
 		})
 	}
 
@@ -101,9 +126,6 @@ $(document).ready(function(){
 
 	})
 
-
-
-
 	var titles = $('li.links')
 	var hintsP = document.querySelectorAll('.hints')
 
@@ -122,9 +144,9 @@ $(document).ready(function(){
 			if(element.dataset.group=='code'){
 
 				$('#top2').fadeIn(400);
+				$('#code').css({color:'black'});
 
 				var thisproject = element.dataset.project
-
 				theHint = displayHints(hintsP,'code',thisproject)
 				$(theHint).fadeIn(400)
 			}
@@ -132,18 +154,18 @@ $(document).ready(function(){
 			if(element.dataset.group=='visual'){
 
 				$('#bottom2').fadeIn(400);
+				$('#visuals').css({color:'black'});
 
 				var thisproject = element.dataset.project
-				// console.log(element.offsetTop)
 				theHint = displayHints(hintsP,'visual',thisproject)
-
-				// $(theHint).offset({top: parseInt(element.offsetTop)});
 				$(theHint).fadeIn(400)
 			}
 
 		}).on('mouseleave', function(evnt){
 
-			$(theHint).fadeOut(400)
+			$(theHint).fadeOut(100);
+			$('#code').removeAttr('style');
+			$('#visuals').removeAttr('style');
 			$('#top2').fadeOut(400);
 			$('#bottom2').fadeOut(400);
 		})

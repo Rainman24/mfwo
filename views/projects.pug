@@ -29,7 +29,7 @@ block routes
 	div.gallery#gallery(style={display:'none'})
 
 		if projects
-			
+
 			div.titles
 
 				ul
@@ -38,7 +38,9 @@ block routes
 						li.links(data-group=item.group data-project=item.project)
 							a(href=item.hreff) #{item.title}
 
-						p.hints(data-preview=item.group data-project=item.project) #{item.preview}
+						if item.preview
+
+							p.hints(data-preview=item.group data-project=item.project) #{item.preview}
 
 		each item in cont
 
@@ -83,7 +85,7 @@ block routes
 
 								each val in item.extra
 
-									p #{val}	
+									p #{val}
 
 	script(src='/scripts/projects.js')
-	//- link(rel='stylesheet', href='/styles/projects.css')
+	

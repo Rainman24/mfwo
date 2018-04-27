@@ -4,12 +4,6 @@ body {
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-#bottom {
-	background: rgba(255,255,255,0.9);
-	/*transition: 1s;*/
-	z-index: 1;
-}
-
 #visuals a, #code a {
 	cursor: pointer;
 }
@@ -17,6 +11,12 @@ body {
 .nav a:hover{
 	color: white;
 	text-shadow: 1px 1px 4px #000000;
+}
+
+#pnav {
+	grid-column: 3/4;
+	grid-row: 1/2;
+	line-height: 9vh;
 }
 
 ul.visuals {
@@ -27,7 +27,7 @@ ul.visuals {
 	height: 82vh;
 	display: grid;
 	grid-template-columns: 1fr;
-	overflow: scroll;
+	overflow-y: scroll;
 	border-bottom: 1px solid black;
 	align-items: center;
 }
@@ -198,7 +198,6 @@ div.extra {
 	transform: rotate(45deg);
 	font-size: 7vh;
 	cursor: pointer;
-	/*background: rgba(255,255,255,0.7);*/
 	mix-blend-mode: difference;
 	color: white;
 }

@@ -36,18 +36,33 @@ $(document).ready(function(){
 		})
 	})
 
+	var toHome = $('#cnav p')
+
+
+	$('#cnav').on('mousemove',function(evnt){
+
+		var x = evnt.clientX,
+			y = evnt.clientY;
+
+			toHome[0].style.top = (y + 5) + 'px';
+			toHome[0].style.left = (x + 5) + 'px';
+
+		$('#cnav a').on('mouseenter', function(evnt){
+			
+			toHome[0].style.display = 'block'
+		}).on('mouseleave', function(evnt){
+
+			toHome[0].style.display = 'none'		
+		})
+
+	})
+
+
 	var canvas = document.getElementById('canvas');
 	var intro = document.getElementById('intro')
 
 	var display = document.querySelector('.display')
 	
-
-	// console.log(intro.clientWidth)
-	// console.log(display.clientHeight)
-
-
-	// canvas.width = intro.clientWidth
-	// canvas.height = display.clientHeight
 
 	if(canvas){
 

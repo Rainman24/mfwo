@@ -38,6 +38,15 @@ html
 
 			else if !homepage
 
+				div#cnav
+					a(href='/') |^|
+					p HOME
+
+				div#pnav(style={display:'none'})
+
+					a(href='/projects') /,-
+					p Project List
+
 				div.display
 
 					block routes

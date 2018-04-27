@@ -58,61 +58,60 @@ $(document).ready(function(){
 	})
 
 
-	var canvas = document.getElementById('canvas');
-	var intro = document.getElementById('intro')
+	// var canvas = document.getElementById('canvas');
+	// var intro = document.getElementById('intro')
 
-	var display = document.querySelector('.display')
+	// var display = document.querySelector('.display')
 	
 
-	if(canvas){
+	// if(canvas){
 
-	canvas.width = intro.clientWidth
-	canvas.height = display.clientHeight
+	// canvas.width = intro.clientWidth
+	// canvas.height = display.clientHeight
 
-	var ctx = canvas.getContext('2d');
+	// var ctx = canvas.getContext('2d');
 
-	ctx.fillStyle = 'rgba(190,192,192,0.9)';
+	// ctx.fillStyle = 'rgba(190,192,192,0.9)';
 
-	ctx.fillRect(0,0,canvas.width,canvas.height);
+	// ctx.fillRect(0,0,canvas.width,canvas.height);
 
-	var grd=ctx.createRadialGradient(canvas.width/2+35,canvas.height/2+35,85,canvas.width/2+35,canvas.height/2+35,1);
-		grd.addColorStop(0,'rgba(140,142,142,0)');
-		grd.addColorStop(1,'white');
+	// var grd=ctx.createRadialGradient(canvas.width/2+35,canvas.height/2+35,85,canvas.width/2+35,canvas.height/2+35,1);
+	// 	grd.addColorStop(0,'rgba(140,142,142,0)');
+	// 	grd.addColorStop(1,'white');
 
-	ctx.fillStyle = grd;
+	// ctx.fillStyle = grd;
 
-	ctx.fillRect(canvas.width/2-71,canvas.height/2-71,250,250);
+	// ctx.fillRect(canvas.width/2-71,canvas.height/2-71,250,250);
 
-	var about = document.getElementById('about')
-	var code = document.getElementById('code')
-	var visuals = document.getElementById('visuals')
-	var contact = document.getElementById('contact')
-	// console.log(code.offsetLeft)
+	// var about = document.getElementById('about')
+	// var code = document.getElementById('code')
+	// var visuals = document.getElementById('visuals')
+	// var contact = document.getElementById('contact')
 
-	ctx.strokeStyle = 'rgba(0,0,0,1)';
-	ctx.lineWidth = 1;
+	// ctx.strokeStyle = 'rgba(0,0,0,1)';
+	// ctx.lineWidth = 1;
 
-	ctx.beginPath();
-	ctx.moveTo(about.offsetLeft,0);
-	ctx.lineTo(canvas.width/2+35,canvas.height/2+35);
-	ctx.stroke();
+	// ctx.beginPath();
+	// ctx.moveTo(about.offsetLeft,0);
+	// ctx.lineTo(canvas.width/2+35,canvas.height/2+35);
+	// ctx.stroke();
 
-	ctx.beginPath();
-	ctx.moveTo(code.offsetLeft,0);
-	ctx.lineTo(canvas.width/2+35,canvas.height/2+35);
-	ctx.stroke();
+	// ctx.beginPath();
+	// ctx.moveTo(code.offsetLeft,0);
+	// ctx.lineTo(canvas.width/2+35,canvas.height/2+35);
+	// ctx.stroke();
 
-	ctx.beginPath();
-	ctx.moveTo(visuals.offsetLeft,canvas.height);
-	ctx.lineTo(canvas.width/2+35,canvas.height/2+35);
-	ctx.stroke();
+	// ctx.beginPath();
+	// ctx.moveTo(visuals.offsetLeft,canvas.height);
+	// ctx.lineTo(canvas.width/2+35,canvas.height/2+35);
+	// ctx.stroke();
 
-	ctx.beginPath();
-	ctx.moveTo(contact.offsetLeft,canvas.height);
-	ctx.lineTo(canvas.width/2+35,canvas.height/2+35);
-	ctx.stroke();
+	// ctx.beginPath();
+	// ctx.moveTo(contact.offsetLeft,canvas.height);
+	// ctx.lineTo(canvas.width/2+35,canvas.height/2+35);
+	// ctx.stroke();
 
 
-	}
+	// }
 	
 })

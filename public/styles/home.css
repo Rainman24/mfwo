@@ -72,6 +72,7 @@ div.display {
 	height: 101%;
 	justify-self: end;
 	background: linear-gradient(to bottom right, rgba(255,255,255,0) 50%, rgba(90,237,185,1));
+	filter: blur(10px);
 	/*mix-blend-mode: overlay;*/
 }
 
@@ -80,9 +81,9 @@ div.display {
 	grid-row: 3/4;
 	width: 50%;
 	height: 100%;
-	background: linear-gradient(to bottom left, rgba(255,255,255,0) 50%, rgba(164,151,34,1));
-	/*mix-blend-mode: overlay;
-	z-index: 1;*/
+	background: linear-gradient(to top left, rgba(255,255,255,0) 50%, rgba(191,175,34,1));
+	filter: blur(10px);
+	/*mix-blend-mode: overlay;*/
 }
 
 #right {

@@ -281,11 +281,22 @@ div.titles {
 	justify-self: start;
 }
 
+/*p.hints::before {
+	content: '';
+	background: linear-gradient(rgba(222,222,222,1),rgba(155,155,125,0.9));
+	filter: blur(5px);
+	width: 40vw;
+	height: 20vh;
+	display: block;
+	position: fixed;
+	z-index: -1;
+}*/
+
 p.hints {
 	font-family: 'Roboto', sans-serif;
 	display: none;
-	background: linear-gradient(rgba(250,250,250,1),rgba(240,240,240,1));
-	padding: 10;
+	background: linear-gradient(rgba(255,255,255,1) 80%,rgba(255,255,255,0.9));
+	padding: 10 20 10 20;
 	z-index: 2;
 }
 
@@ -293,6 +304,10 @@ p.hints[data-preview='code'] {
 	grid-column: 2/3;
 	justify-self: start;
 	align-self: start;
+	/*background: linear-gradient(rgba(253,252,252,1) 80%,rgba(255,254,254,0.9));*/
+	border-left: 2px solid rgba(131,9,9,1);
+	position: relative;
+	top: -16px;
 }
 
 p.hints[data-preview='visual'] {
@@ -300,6 +315,8 @@ p.hints[data-preview='visual'] {
 	justify-self: end;
 	align-self: start;
 	text-align: right;
+	border-right: 2px solid navy;
+	padding: 5 20;
 	position: relative;
 	top: -10vh;
 	

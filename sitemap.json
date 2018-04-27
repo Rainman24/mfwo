@@ -7,7 +7,7 @@
     "captions": "yes",
     "date": "January 2018",
     "hreff": "/projects/timelist",
-    "preview": "The enormous room on the ground floor faced towards the north. Cold for all the summer beyond the panes, for all the tropical heat of the room itself, a harsh thin light glared through the windows, hungrily seeking some draped lay figure, some pallid shape of academic goose-flesh, but finding only the glass and nickel and bleakly shining porcelain of a laboratory. Wintriness responded to wintriness. The overalls of the workers were white, their hands gloved with a pale corpse-coloured rubber. The light was frozen, dead, a ghost. Only from the yellow barrels of the microscopes did it borrow a certain rich and living substance, lying along the polished tubes like butter, streak after luscious streak in long recession down the work tables.",
+    "preview": "Composed a minimal module for simplifying the conversion of time inputs relative to the Unix timestamp on submit and storing both values as a bigint data type in the postgresql; Dynamically displaying multiple animated countdowns converted to the UTC timestring; One-page layout with CSS 3D transforms properties.",
     "screencast": "https://player.vimeo.com/video/261029371?autoplay=1&loop=1&title=0&byline=0&portrait=0",
     "gitrepo" : "https://github.com/Rainman24/timelist",
     "extra": [
@@ -28,7 +28,7 @@
     "captions": "JSON API using RESTful design and a autocomplete searchbar",
     "date": "November 2017",
     "hreff": "/projects/uia",
-    "preview": "The enormous room on the ground floor faced towards the north. Cold for all the summer beyond the panes, for all the tropical heat of the room itself, a harsh thin light glared through the windows, hungrily seeking some draped lay figure, some pallid shape of academic goose-flesh, but finding only the glass and nickel and bleakly shining porcelain of a laboratory. Wintriness responded to wintriness. The overalls of the workers were white, their hands gloved with a pale corpse-coloured rubber. The light was frozen, dead, a ghost. Only from the yellow barrels of the microscopes did it borrow a certain rich and living substance, lying along the polished tubes like butter, streak after luscious streak in long recession down the work tables.",
+    "preview": "The searchbar post requst is handled both on the server and client-side. Due to Ajax implementation, user suggestions are dynamically rendered on the keyup event. A selected suggestion on submit, redirects to the specific window location of the user in the userlist url.",
     "screencast": "https://player.vimeo.com/video/265847319?autoplay=1&loop=1&title=0&byline=0&portrait=0",
     "gitrepo" : "https://github.com/Rainman24/UIA"
   },
@@ -40,7 +40,7 @@
     "captions": "Simple Website built on week two on the course",
     "date": "November 2017",
     "hreff": "/projects/bwt",
-    "preview": "Standard men and women; in uniform batches. The whole of a small factory staffed with the products of a single bokanovskified egg.",
+    "preview": "By no means this is a remarkable example of my current work, but rather a demonstration of a first milestone in learning. To be specific - a project made within 4 days after one week of becoming acquainted with the basics of HTML, CSS and jQuery.",
     "screencast": "https://player.vimeo.com/video/261057223?autoplay=1&loop=1&title=0&byline=0&portrait=0"
   },
   {
@@ -51,7 +51,7 @@
     "captions": "Gottcha",
     "date": "March 2018",
     "hreff": "/",
-    "preview": "Standard men and women; in uniform batches. The whole of a small factory staffed with the products of a single bokanovskified egg.",
+    "preview": "Here you can find the link to the github repository of the code for this website and the screencast of its early prototype.",
     "screencast": "https://player.vimeo.com/video/261059350?autoplay=1&loop=1&title=0&byline=0&portrait=0",
     "gitrepo": "https://github.com/Rainman24/mfwo"
   },
@@ -63,7 +63,7 @@
     "captions": "Tribute to the progressive quality of public service announcements in Amsterdam",
     "date": "April 2015",
     "hreff": "/projects/oudekerk15",
-    "preview": "For a modernist movement in verse, Acmeism was curiously conserva­ tive both in theme and technique. Mandelstam lived at a time when inno­ vation in the prosodic elements of poetry was highly esteemed, but his rhymes and meters might, with few exceptions, seem familiar to the con­ temporaries of Pushkin. The diction of his slow, deliberately impeded lines occasionally recalled an even earlier age, that of Derzhavin. But the imagery, the life’s blood of his poetry, was wholly of his time, and of ours.",
+    "preview": "Tribute to the progressive quality of public service announcements in Amsterdam.",
     "screencast": "https://player.vimeo.com/video/183824434?title=0&byline=0&portrait=0"
   },
   {
@@ -74,7 +74,7 @@
     "captions": "Windows 95 Dual Core Processor",
     "date": "April 2017",
     "hreff": "/projects/nonsense",
-    "preview": "Almost exactly one year from the time of his release from Voronezh, Mandelstam was undergoing treatment at a sanatorium near Charuste, a small station not far from Tarusa, when he was arrested again (1 May 1938)."
+    "preview": "Spin off visual identity for the Windows 95 Dual Core Processor."
   },
   {
     "group": "visual",
@@ -84,7 +84,7 @@
     "captions": "Hello",
     "date": "April 2017",
     "hreff": "/projects/commonsense",
-    "preview": "Almost exactly one year from the time of his release from Voronezh, Mandelstam was undergoing treatment at a sanatorium near Charuste, a small station not far from Tarusa, when he was arrested again (1 May 1938)."
+    "preview": "This title may or may not be of deceptive nature."
   },
   {
     "group": "visual",
@@ -94,7 +94,7 @@
     "captions": "Italy",
     "date": "August 2013",
     "hreff": "/projects/it",
-    "preview": "The solace which I find in this is not, of course, what Nabokov has to say about “ noise,” since he specifically rejects it in favor of “ hubbub.” It is the evidence of his uneasiness with the latter, which produces the delight­ ful change-ringing on the various shades of shum. As in all such cases, the final choice is a matter of taste."
+    "preview": "It's a photo of people resting on a terrace."
   },
   {
     "group": "visual",
@@ -104,7 +104,7 @@
     "captions": "foopho",
     "date": "Dec 2015",
     "hreff": "/projects/foo",
-    "preview": "The solace which I find in this is not, of course, what Nabokov has to say about “ noise,” since he specifically rejects it in favor of “ hubbub.” It is the evidence of his uneasiness with the latter, which produces the delight­ ful change-ringing on the various shades of shum. As in all such cases, the final choice is a matter of taste."
+    "preview": "A visual tale of an undergrad coping with personal dysfunctionality by attempting to find and capture harmony within domestic chaos."
   },
   {
     "group": "visual",

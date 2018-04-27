@@ -135,6 +135,7 @@ $(document).ready(function(){
 		return match
 	}
 
+
 	$(titles).each(function(index,element){
 
 		var theHint
@@ -144,11 +145,12 @@ $(document).ready(function(){
 			if(element.dataset.group=='code'){
 
 				$('#top2').fadeIn(400);
-				$('#code').css({color:'black'});
+				$('#code').css({color:'rgba(20,20,20,1'});
 
 				var thisproject = element.dataset.project
 				theHint = displayHints(hintsP,'code',thisproject)
 				$(theHint).fadeIn(400)
+
 			}
 
 			if(element.dataset.group=='visual'){

@@ -3,10 +3,11 @@
     "group": "code",
     "project": "timelist",
     "bckimg": "/images/cpro/listlift.png",
-    "title": "24h to-do timelist",
+    "title": "24hour++ timelist",
     "captions": "yes",
     "date": "January 2018",
     "hreff": "/projects/timelist",
+    "preview": "Composed a minimal module for simplifying the conversion of time inputs relative to the Unix timestamp on submit and storing both values as a bigint data type in the postgresql; Dynamically displaying multiple animated countdowns converted to the UTC timestring; One-page layout with CSS 3D transforms properties.",
     "screencast": "https://player.vimeo.com/video/261029371?autoplay=1&loop=1&title=0&byline=0&portrait=0",
     "gitrepo" : "https://github.com/Rainman24/timelist",
     "extra": [
@@ -27,6 +28,7 @@
     "captions": "JSON API using RESTful design and a autocomplete searchbar",
     "date": "November 2017",
     "hreff": "/projects/uia",
+    "preview": "The searchbar post requst is handled both on the server and client-side. Due to Ajax implementation, user suggestions are dynamically rendered on the keyup event. A selected suggestion on submit, redirects to the specific window location of the user in the userlist url.",
     "screencast": "https://player.vimeo.com/video/265847319?autoplay=1&loop=1&title=0&byline=0&portrait=0",
     "gitrepo" : "https://github.com/Rainman24/UIA"
   },
@@ -38,6 +40,7 @@
     "captions": "Simple Website built on week two on the course",
     "date": "November 2017",
     "hreff": "/projects/bwt",
+    "preview": "By no means this is a remarkable example of my current work, but rather a demonstration of a first milestone in learning. To be specific - a project made within 4 days after one week of becoming acquainted with the basics of HTML, CSS and jQuery.",
     "screencast": "https://player.vimeo.com/video/261057223?autoplay=1&loop=1&title=0&byline=0&portrait=0"
   },
   {
@@ -48,6 +51,7 @@
     "captions": "Gottcha",
     "date": "March 2018",
     "hreff": "/",
+    "preview": "Here you can find the link to the github repository of the code for this website and the screencast of its early prototype.",
     "screencast": "https://player.vimeo.com/video/261059350?autoplay=1&loop=1&title=0&byline=0&portrait=0",
     "gitrepo": "https://github.com/Rainman24/mfwo"
   },
@@ -59,6 +63,7 @@
     "captions": "Tribute to the progressive quality of public service announcements in Amsterdam",
     "date": "April 2015",
     "hreff": "/projects/oudekerk15",
+    "preview": "Tribute to the progressive quality of public service announcements in Amsterdam.",
     "screencast": "https://player.vimeo.com/video/183824434?title=0&byline=0&portrait=0"
   },
   {
@@ -68,7 +73,8 @@
     "title": "Non Sense",
     "captions": "Windows 95 Dual Core Processor",
     "date": "April 2017",
-    "hreff": "/projects/nonsense"
+    "hreff": "/projects/nonsense",
+    "preview": "Spin off visual identity for the Windows 95 Dual Core Processor."
   },
   {
     "group": "visual",
@@ -77,7 +83,8 @@
     "title": "Common Sense",
     "captions": "Hello",
     "date": "April 2017",
-    "hreff": "/projects/commonsense"
+    "hreff": "/projects/commonsense",
+    "preview": "This title may or may not be of deceptive nature."
   },
   {
     "group": "visual",
@@ -86,7 +93,8 @@
     "title": "Humanism",
     "captions": "Italy",
     "date": "August 2013",
-    "hreff": "/projects/it"
+    "hreff": "/projects/it",
+    "preview": "It's a photo of people resting on a terrace."
   },
   {
     "group": "visual",
@@ -95,7 +103,8 @@
     "title": "Kitchen Counter Entropy",
     "captions": "foopho",
     "date": "Dec 2015",
-    "hreff": "/projects/foo"
+    "hreff": "/projects/foo",
+    "preview": "A visual tale of an undergrad coping with personal dysfunctionality by attempting to find and capture harmony within domestic chaos."
   },
   {
     "group": "visual",

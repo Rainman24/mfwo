@@ -37,20 +37,15 @@ $(document).ready(function(){
 	ctx.lineTo(code.offsetLeft,0);
 	ctx.lineTo(contact.offsetLeft,canvas.height);
 
-	
-    // ctx.rect(0, 0, 150, 100);
-    
-    // ctx.fill();
-
 	ctx.closePath();
-	ctx.stroke();
 	ctx.fill();
+	ctx.stroke();
+	
 
 	}
+
 	background()
-
-	window.onresize = background
-
+	window.onresize = background;
 
 	}
 	

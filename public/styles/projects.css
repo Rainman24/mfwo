@@ -304,7 +304,6 @@ p.hints[data-preview='code'] {
 	grid-column: 2/3;
 	justify-self: start;
 	align-self: start;
-	/*background: linear-gradient(rgba(253,252,252,1) 80%,rgba(255,254,254,0.9));*/
 	border-left: 2px solid rgba(55,0,0,1);
 	position: relative;
 	top: -16px;
@@ -313,13 +312,11 @@ p.hints[data-preview='code'] {
 p.hints[data-preview='visual'] {
 	grid-column: 1/2;
 	justify-self: end;
-	align-self: start;
+	align-self: baseline;
 	text-align: right;
 	border-right: 2px solid rgb(10,53,66);
-	padding: 5 20;
 	position: relative;
-	top: -10vh;
-	
+	top: -10vh;	
 }
 
 .titles a {

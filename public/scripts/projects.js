@@ -148,8 +148,8 @@ $(document).ready(function(){
 				$('#code').css({color:'rgba(20,20,20,1'});
 
 				var thisproject = element.dataset.project
-				theHint = displayHints(hintsP,'code',thisproject)
-				$(theHint).fadeIn(400)
+				theHint = displayHints(hintsP,'code',thisproject);
+				$(theHint).fadeIn(400);
 
 			}
 
@@ -159,8 +159,8 @@ $(document).ready(function(){
 				$('#visuals').css({color:'black'});
 
 				var thisproject = element.dataset.project
-				theHint = displayHints(hintsP,'visual',thisproject)
-				$(theHint).fadeIn(400)
+				theHint = displayHints(hintsP,'visual',thisproject);
+				$(theHint).fadeIn(400);
 			}
 
 		}).on('mouseleave', function(evnt){

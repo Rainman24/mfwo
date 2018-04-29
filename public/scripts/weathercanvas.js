@@ -34,10 +34,9 @@ $(document).ready(function(){
 
 		var time = new Date();
 		var timeString = time.toLocaleTimeString();
-		console.log(timeString)
-		ctx.fillStyle = 'rgba(0,0,0,1)';
-		ctx.font = '40px Arial';
-		ctx.fillText(`${timeString}`, canvas.width/2-(canvas.width/4+canvas.height/4)/5, canvas.height/2+20);
+		ctx.fillStyle = 'rgba(70,70,70,0.7)';
+		ctx.font = '2em Arial';
+		ctx.fillText(`${timeString}`, canvas.width/2-60, canvas.height/2+10);
 
 		}
 
@@ -48,17 +47,39 @@ $(document).ready(function(){
 
 		xhr.open('GET', 'scripts/test.txt', true);
 
+		console.log('READYSTATE: ', xhr.readyState)
+
+		xhr.onprogress = function(){
+			console.log('READYSTATE: ', xhr.readyState)
+		}
+
 		xhr.onload = function(){
-			if(xhr.status == 200){
-				//console.log(xhr.responseText);
+			console.log('READYSTATE: ', xhr.readyState)
+			if(this.status == 200){
+				console.log(this.responseText);
+				document.getElementById('memo').innerHTML = this.responseText;
+			} else if(this.status == 404){
+				document.getElementById('memo').innerHTML = 'File Not Found'
 			}
 		}
+
+		xhr.onerror = function(){
+			console.log('Request Error...');
+		}
+
+		// xhr.onreadystatechange = function(){
+		// 	console.log('READYSTATE: ', xhr.readyState)
+		// 	if(this.readyState == 4 && this.status == 200){
+		// 		console.log(this.responseText);
+		// 	}
+		// }
 
 		xhr.send();
 	}
 	xmlhttpreq();
 
-		background()
+		// background()
+		setInterval(background,1000);
 		window.onresize = background;
 
 	}

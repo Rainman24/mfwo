@@ -157,3 +157,13 @@ div.display {
 	display: block;
 }
 
+#memo {
+	display: block;
+	position: absolute;
+	top: 85%;
+	left: 5%;
+	font-family: Arial;
+	text-transform: uppercase;
+	color: brown;
+	padding: 10;
+}

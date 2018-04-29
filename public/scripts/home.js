@@ -17,7 +17,7 @@ $(document).ready(function(){
 	$('div#top.nav').append(`
 		<ul id='abcode'>
 			<li class='about'><a id='about' href='/about'>About</a></li>
-			<li class='projects'><a id='code' href='/projects'>Code</a></li>
+			<li class='projects'><a id='code' href='/projects'>Projects</a></li>
 		</ul>`)
 
 	$('div#bottom.nav').append(`

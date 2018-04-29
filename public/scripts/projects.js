@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	$('#code').text('code')
+
 	$("#gallery").fadeIn(1000)
 
 	var navigation = $('.nav')

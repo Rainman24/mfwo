@@ -19,6 +19,10 @@ body {
 	line-height: 9vh;
 }
 
+#visuals {
+	visibility: visible;
+}
+
 ul.visuals {
 	margin: 0;
 	padding: 0;
@@ -259,8 +263,8 @@ div.titles {
 	height: 100%;
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
-	grid-auto-rows: minmax(5vh,10vh);
-	grid-column-gap: 2vw;
+	grid-auto-rows: 10vh;
+	grid-column-gap: 20px;
 	align-content: space-evenly;
 }
 
@@ -270,13 +274,13 @@ div.titles {
 	text-transform: uppercase;
 }
 
-.titles li[data-group='code'] {
+.titles li[data-group='visual'] {
 	grid-column: 1/2;
 	text-align: right;
 	justify-self: end;
 }
 
-.titles li[data-group='visual'] {
+.titles li[data-group='code'] {
 	grid-column: 2/3;
 	justify-self: start;
 }
@@ -300,16 +304,16 @@ p.hints {
 	z-index: 2;
 }
 
-p.hints[data-preview='code'] {
+p.hints[data-preview='visual'] {
 	grid-column: 2/3;
 	justify-self: start;
-	align-self: start;
+	align-self: baseline;
 	border-left: 2px solid rgba(55,0,0,1);
-	position: relative;
-	top: -16px;
+	/*position: relative;
+	top: -16px;*/
 }
 
-p.hints[data-preview='visual'] {
+p.hints[data-preview='code'] {
 	grid-column: 1/2;
 	justify-self: end;
 	align-self: baseline;

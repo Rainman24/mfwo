@@ -160,10 +160,17 @@ div.display {
 #memo {
 	display: block;
 	position: absolute;
-	top: 85%;
+	top: 30%;
 	left: 5%;
 	font-family: Arial;
 	text-transform: uppercase;
 	color: brown;
 	padding: 10;
+}
+
+#memo ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	color: black;
 }

@@ -45,7 +45,7 @@ $(document).ready(function(){
 		var xhr = new XMLHttpRequest();
 		console.log(xhr);
 
-		xhr.open('GET', 'scripts/test.txt', true);
+		xhr.open('GET', 'json/timespec.json', true);
 
 		console.log('READYSTATE: ', xhr.readyState)
 
@@ -57,7 +57,23 @@ $(document).ready(function(){
 			console.log('READYSTATE: ', xhr.readyState)
 			if(this.status == 200){
 				console.log(this.responseText);
-				document.getElementById('memo').innerHTML = this.responseText;
+
+				var description = JSON.parse(this.responseText);
+
+				var output = '';
+
+				output += '<ul>' +
+					'<li> Project: ' + description.project + '</li>' +
+					'<li> Title: ' + description.title + '</li>' +
+					'<li> Captions: ' + description.captions + '</li>' +
+					'<li> Date: ' + description.date + '</li>' +
+					'<ul>' + '<li> Extra1: ' + description.extra[0] + '</li>' + '</ul>' +
+					'</ul>';
+
+				console.log(description.extra)
+
+
+				document.getElementById('memo').innerHTML = output;
 			} else if(this.status == 404){
 				document.getElementById('memo').innerHTML = 'File Not Found'
 			}

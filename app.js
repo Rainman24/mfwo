@@ -3,13 +3,27 @@ const boparser = require('body-parser')
 const pug = require('pug')
 const app = express()
 const fs = require('fs')
-const port = process.env.PORT || 3007
+const request = require('request');
 
 app.use(boparser.urlencoded({extended:true}))
 app.use(express.static('public'))
 
 app.set('view engine', 'pug')
 app.set('views', './views')
+
+var sdir = "./conf.json"
+var config
+
+try {
+  config = require(sdir)
+}
+catch (err) {
+  config = {}
+  console.log("unable to read file '" + sdir + "': ", err)
+}
+
+var weather = `http://api.openweathermap.org/data/2.5/weather?q=Amsterdam&units=metric&appid=${config.APIKey}`
+const port = process.env.PORT || config.port
 
 app.get('/', function(req,res){
 	fs.readFile('sitemap.json', function(err,data){
@@ -22,6 +36,21 @@ app.get('/', function(req,res){
 			title: 'Yes',
 			cont: projects
 		})
+	})
+})
+
+app.get('/hi', function(req,res){
+
+request(weather, function (err, response, body) {
+		if(err){
+			console.log('error:', error);
+		} else {
+		
+			let weather1 = JSON.parse(body)
+			let message = `It's ${weather1.main.temp} degrees in ${weather1.name}!`;
+			console.log(message);
+		}
+	res.send(body)
 	})
 })
 

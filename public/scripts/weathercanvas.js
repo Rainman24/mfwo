@@ -45,7 +45,7 @@ $(document).ready(function(){
 		var xhr = new XMLHttpRequest();
 		console.log(xhr);
 
-		xhr.open('GET', 'json/timespec.json', true);
+		xhr.open('GET', '/hi', true);
 
 		console.log('READYSTATE: ', xhr.readyState)
 
@@ -58,19 +58,27 @@ $(document).ready(function(){
 			if(this.status == 200){
 				console.log(this.responseText);
 
-				var description = JSON.parse(this.responseText);
+				var weatherForecast = JSON.parse(this.responseText);
 
 				var output = '';
 
-				output += '<ul>' +
-					'<li> Project: ' + description.project + '</li>' +
-					'<li> Title: ' + description.title + '</li>' +
-					'<li> Captions: ' + description.captions + '</li>' +
-					'<li> Date: ' + description.date + '</li>' +
-					'<ul>' + '<li> Extra1: ' + description.extra[0] + '</li>' + '</ul>' +
-					'</ul>';
+				// output += '<ul>' +
+				// 	'<li> Coord: ' + weather.weather.main + '</li>' +
+				// 	'<li> Weather: ' + weather.weather + '</li>' +
+				// 	'<li> Main: ' + weather.main + '</li>' +
+				// 	'<li> Clouds: ' + weather.clouds + '</li>' +
+				// 	'</ul>';
 
-				console.log(description.extra)
+				console.log(weatherForecast)
+				for(var i in weatherForecast.weather){
+					console.log(weatherForecast.weather[i].main)
+					output += '<ul>' +
+						'<li ID: > ' + weatherForecast.weather[i].id + '</li>' +
+						'<li Main: > ' + weatherForecast.weather[i].main + '</li>' +
+						'<li Description: > ' + weatherForecast.weather[i].description + '</li>' +
+						'<img src="' + 'http://openweathermap.org/img/w/' + weatherForecast.weather[i].icon + '.png">'
+						'</ul>'
+				}
 
 
 				document.getElementById('memo').innerHTML = output;

@@ -160,7 +160,7 @@ div.display {
 #memo {
 	display: block;
 	position: absolute;
-	top: 30%;
+	top: 70%;
 	left: 5%;
 	font-family: Arial;
 	text-transform: uppercase;
@@ -172,9 +172,23 @@ div.display {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	color: black;
+	color: teal;
+	font-size: 2em;
 }
 
-#memo ul:nth-child(2) {
+div.we:nth-child(2) {
 	display: none;
+}
+
+div.we {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-column-gap: 10px;
+	justify-items: center;
+	font-family: Arial;
+	font-size: 2em;
+	color: grey;
+	text-transform: uppercase;
+	align-items: center;
+	margin: 0;
 }

@@ -61,21 +61,26 @@ $(document).ready(function(){
 				var weatherForecast = JSON.parse(this.responseText);
 
 				var output = '';
+
+				// '<li Sunrise: > ' + new Date(weatherForecast.sys.sunrise*1000).toUTCString() + '</li>' +
+				// '<li Sunset: > ' + new Date(weatherForecast.sys.sunset*1000).toUTCString() + '</li>' +
 				
 
 				console.log(weatherForecast)
 				for(var i in weatherForecast.weather){
 					console.log(weatherForecast.weather[i].main)
-					output += '<ul>' + weatherForecast.main.temp + '℃' +
-						'<li Main: > ' + weatherForecast.weather[i].main + '</li>' +
-						'<li Description: > ' + weatherForecast.weather[i].description + '</li>' +
+					output += '<div class="we">' +  
 						'<img src="' + 'http://openweathermap.org/img/w/' + weatherForecast.weather[i].icon + '.png">' +
-						'<li Sunrise: > ' + new Date(weatherForecast.sys.sunrise*1000).toUTCString() + '</li>' +
-						'<li Sunset: > ' + new Date(weatherForecast.sys.sunset*1000).toUTCString() + '</li>' +
-						'</ul>'
+						'<p> ' + weatherForecast.main.temp + '℃' + '</p>' +
+						'<p> ' + weatherForecast.weather[i].main + '</p>' +
+						'</div>'
 				}
 
-				document.getElementById('memo').innerHTML = output;
+				//document.getElementById('visuals').innerHTML = output;
+				var liWF = document.querySelector('#mmcon li.projects');
+				console.log(liWF)
+				liWF.innerHTML = output;
+				//document.getElementById('bottom2').style.display = 'inline-block';
 			} else if(this.status == 404){
 				document.getElementById('memo').innerHTML = 'File Not Found'
 			}
@@ -95,6 +100,10 @@ $(document).ready(function(){
 		xhr.send();
 	}
 	xmlhttpreq();
+
+	$('#visuals').on('click', function(e){
+		e.preventDefault();
+	})
 
 		// background()
 		setInterval(background,1000);

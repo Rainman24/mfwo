@@ -174,3 +174,7 @@ div.display {
 	padding: 0;
 	color: black;
 }
+
+#memo ul:nth-child(2) {
+	display: none;
+}

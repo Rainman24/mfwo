@@ -61,25 +61,19 @@ $(document).ready(function(){
 				var weatherForecast = JSON.parse(this.responseText);
 
 				var output = '';
-
-				// output += '<ul>' +
-				// 	'<li> Coord: ' + weather.weather.main + '</li>' +
-				// 	'<li> Weather: ' + weather.weather + '</li>' +
-				// 	'<li> Main: ' + weather.main + '</li>' +
-				// 	'<li> Clouds: ' + weather.clouds + '</li>' +
-				// 	'</ul>';
+				
 
 				console.log(weatherForecast)
 				for(var i in weatherForecast.weather){
 					console.log(weatherForecast.weather[i].main)
-					output += '<ul>' +
-						'<li ID: > ' + weatherForecast.weather[i].id + '</li>' +
+					output += '<ul>' + weatherForecast.main.temp + '℃' +
 						'<li Main: > ' + weatherForecast.weather[i].main + '</li>' +
 						'<li Description: > ' + weatherForecast.weather[i].description + '</li>' +
-						'<img src="' + 'http://openweathermap.org/img/w/' + weatherForecast.weather[i].icon + '.png">'
+						'<img src="' + 'http://openweathermap.org/img/w/' + weatherForecast.weather[i].icon + '.png">' +
+						'<li Sunrise: > ' + new Date(weatherForecast.sys.sunrise*1000).toUTCString() + '</li>' +
+						'<li Sunset: > ' + new Date(weatherForecast.sys.sunset*1000).toUTCString() + '</li>' +
 						'</ul>'
 				}
-
 
 				document.getElementById('memo').innerHTML = output;
 			} else if(this.status == 404){

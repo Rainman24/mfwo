@@ -66,14 +66,20 @@ $(document).ready(function(){
 				// '<li Sunset: > ' + new Date(weatherForecast.sys.sunset*1000).toUTCString() + '</li>' +
 				
 
+				// console.log(weatherForecast)
+				// for(var i in weatherForecast.weather){
+				// 	console.log(weatherForecast.weather[i].main)
+				// 	output += '<div class="we">' +  
+				// 		'<img src="' + 'http://openweathermap.org/img/w/' + weatherForecast.weather[i].icon + '.png">' +
+				// 		'<p> ' + weatherForecast.main.temp + '℃' + weatherForecast.weather[i].main + '</p>' +
+				// 		'<p> ' + weatherForecast.weather[i].main + '</p>' +
+				// 		'</div>'
+				// }
+
 				console.log(weatherForecast)
 				for(var i in weatherForecast.weather){
 					console.log(weatherForecast.weather[i].main)
-					output += '<div class="we">' +  
-						'<img src="' + 'http://openweathermap.org/img/w/' + weatherForecast.weather[i].icon + '.png">' +
-						'<p> ' + weatherForecast.main.temp + '℃' + '</p>' +
-						'<p> ' + weatherForecast.weather[i].main + '</p>' +
-						'</div>'
+					output += '<p> ' + weatherForecast.main.temp + '℃' + weatherForecast.weather[i].main + '</p>'
 				}
 
 				//document.getElementById('visuals').innerHTML = output;

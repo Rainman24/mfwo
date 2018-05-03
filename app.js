@@ -22,7 +22,7 @@ catch (err) {
   console.log("unable to read file '" + sdir + "': ", err)
 }
 
-var weather = `http://api.openweathermap.org/data/2.5/weather?q=Amsterdam&units=metric&appid=${config.APIKey}`
+var weather = `http://api.openweathermap.org/data/2.5/weather?lat=52.3702&lon=4.8952&units=metric&appid=${config.APIKey}`
 const port = process.env.PORT || config.port
 
 app.get('/', function(req,res){
@@ -46,8 +46,8 @@ request(weather, function (err, response, body) {
 			console.log('error:', error);
 		} else {
 		
-			let weather1 = JSON.parse(body)
-			let message = `It's ${weather1.main.temp} degrees in ${weather1.name}!`;
+			var weather1 = JSON.parse(body)
+			var message = `It's ${weather1.main.temp} degrees in ${weather1.name}!`;
 			console.log(message);
 		}
 	res.send(body)

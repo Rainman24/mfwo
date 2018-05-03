@@ -45,6 +45,7 @@ $(document).ready(function(){
 	ctx.beginPath();
 	ctx.moveTo(about.offsetLeft,y1);
 	ctx.lineTo(code.offsetLeft,y1);
+
 	ctx.lineTo(code.offsetLeft,y2);
 	ctx.lineTo(visuals.offsetLeft/3,y2);
 

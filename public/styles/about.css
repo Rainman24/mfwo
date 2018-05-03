@@ -34,6 +34,10 @@ div.about {
 	overflow: hidden;
 }
 
+#visuals {
+	visibility: hidden;
+}
+
 .about {
 	font-family: 'Roboto', sans-serif;
 }

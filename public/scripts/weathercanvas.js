@@ -5,6 +5,9 @@ $(document).ready(function(){
 		display = document.querySelector('.display');
 	
 
+	// document.getElementById('scream').width = intro.clientWidth;
+	// document.getElementById('scream').height = display.clientHeight;
+
 	if(canvas){
 
 		function background(){

@@ -7,6 +7,8 @@ $(document).ready(function(){
 
 	if(canvas){
 
+
+
 	function background(){
 
 	canvas.width = intro.clientWidth
@@ -15,6 +17,8 @@ $(document).ready(function(){
 	var ctx = canvas.getContext('2d');
 	var twoPI = Math.PI*2;
 
+	//var image = document.getElementById('scream');
+	//ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
 	ctx.fillStyle = 'rgba(255,255,255,1)';
 
 	ctx.fillRect(0,0,canvas.width,canvas.height);
@@ -24,27 +28,29 @@ $(document).ready(function(){
 	var visuals = document.getElementById('visuals')
 	var contact = document.getElementById('contact')
 
+	
+
 	ctx.strokeStyle = 'rgba(0,0,0,1)';
 	ctx.lineWidth = 1;
 
 	var img = document.getElementById('scream');
+	//var img = ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+    //var pat = ctx.createPattern(img, 'repeat');
     var pat = ctx.createPattern(img, 'repeat');
-    //ctx.filter = 'blur(5px)';
     ctx.fillStyle = pat;
-    //ctx.filter = 'blur(5px)';
+
+    var y2 = canvas.height,
+    	y1 = 0;
 
 	ctx.beginPath();
-	ctx.moveTo(about.offsetLeft,0);
-	ctx.lineTo(visuals.offsetLeft,canvas.height);
-	ctx.lineTo(code.offsetLeft,0);
-	ctx.lineTo(contact.offsetLeft,canvas.height);
+	ctx.moveTo(about.offsetLeft,y1);
+	ctx.lineTo(code.offsetLeft,y1);
+	ctx.lineTo(code.offsetLeft,y2);
+	ctx.lineTo(visuals.offsetLeft/3,y2);
 
 	ctx.closePath();
 	ctx.fill();
-	// ctx.stroke();
-	
-	
-	//ctx.fillStyle = 'rgba(255,255,255,0.4)';
+	//ctx.stroke();
 
 	var grd=ctx.createRadialGradient(canvas.width/2,canvas.height/2,85,canvas.width/2,canvas.height/2,4);
 		grd.addColorStop(0,'rgba(255,255,255,0.4)');
@@ -54,23 +60,18 @@ $(document).ready(function(){
 	ctx.strokeStyle = 'rgba(240,240,240,1)';
 	ctx.lineWidth = 2;
 	ctx.beginPath();
-	//ctx.moveTo(canvas.width/2,canvas.height/2);
-	//ctx.lineTo(canvas.width/2,canvas.height/2+(canvas.width/4+canvas.height/4)/2);
 	ctx.arc(canvas.width/2,canvas.height/2,(canvas.width/4+canvas.height/4)/2,0,twoPI);
-	//ctx.moveTo(canvas.width/2,canvas.height/2);
 	
 	ctx.closePath();
 	ctx.stroke();
 	ctx.fill();
 
-	// ctx.fillStyle = 'rgba(0,0,0,1)';
-	// ctx.font = '40px Arial';
-	// ctx.fillText('3:30', canvas.width/2-40, canvas.height/2+20);
 	var time = new Date();
 		var timeString = time.toLocaleTimeString();
 		ctx.fillStyle = 'rgba(0,0,0,1)';
 		ctx.font = '2em Arial';
 		ctx.fillText(`${timeString}`, canvas.width/2-60, canvas.height/2+10);
+
 
 	}
 

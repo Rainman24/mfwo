@@ -21,6 +21,7 @@ body {
 
 #visuals {
 	visibility: visible;
+	cursor: pointer;
 }
 
 ul.visuals {

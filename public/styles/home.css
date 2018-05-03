@@ -157,38 +157,7 @@ div.display {
 	display: block;
 }
 
-#memo {
-	display: block;
-	position: absolute;
-	top: 70%;
-	left: 5%;
-	font-family: Arial;
-	text-transform: uppercase;
-	color: brown;
-	padding: 10;
-}
-
-#memo ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	color: teal;
-	font-size: 2em;
-}
-
-div.we:nth-child(2) {
-	display: none;
-}
-
-div.we {
-	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	grid-column-gap: 10px;
-	justify-items: center;
-	font-family: Arial;
-	font-size: 2em;
-	color: grey;
-	text-transform: uppercase;
-	align-items: center;
-	margin: 0;
+#scream {
+	width: 100%;
+	height: 100%;
 }

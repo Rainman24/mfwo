@@ -14,6 +14,9 @@ $(document).ready(function(){
 	direction[0].append(arrowl[0])
 	direction[1].append(arrowr[0])
 
+
+	document.getElementById('visuals').removeAttribute('href');
+
 	var display = $('.gallery img')
 
 	$('#visuals').on('click', function(e){

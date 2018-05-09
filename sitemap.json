@@ -50,7 +50,7 @@
     "title": "This is it",
     "captions": "Gottcha",
     "date": "March 2018",
-    "hreff": "/$(this)",
+    "hreff": "/projects/$(this)",
     "preview": "Here you can find the link to the github repository of the code for this website and the screencast of its early prototype.",
     "screencast": "https://player.vimeo.com/video/261059350?autoplay=1&loop=1&title=0&byline=0&portrait=0",
     "gitrepo": "https://github.com/Rainman24/mfwo"

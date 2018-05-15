@@ -74,7 +74,7 @@
     "captions": "Windows 95 Dual Core Processor",
     "date": "April 2017",
     "hreff": "/projects/nonsense",
-    "preview": "Spin off visual identity for the Windows 95 Dual Core Processor."
+    "preview": "Rorschach Fields."
   },
   {
     "group": "visual",
@@ -98,16 +98,6 @@
   },
   {
     "group": "visual",
-    "project": "foo",
-    "bckimg": "/images/foopho-crops/eggel.png",
-    "title": "Kitchen Counter Entropy",
-    "captions": "foopho",
-    "date": "Dec 2015",
-    "hreff": "/projects/foo",
-    "preview": "A visual tale of an undergrad coping with personal dysfunctionality by attempting to find and capture harmony within domestic chaos."
-  },
-  {
-    "group": "visual",
     "project": "wikiFriends",
     "bckimg": "/images/Friends.png",
     "title": "Blame it on the Social Constructs",
@@ -126,29 +116,11 @@
   },
   {
     "group": "visual",
-    "project": "negtau",
-    "bckimg": "/images/NS_WhiteTaurus.png",
-    "title": "Negative Space Res",
-    "captions": "Negative Space Res",
-    "date": "April 2017",
-    "hreff": "/projects/negtau"
-  },
-  {
-    "group": "visual",
     "project": "fieldreport",
     "bckimg": "/images/FR3.png",
     "title": "Field Repord Visual Identity",
     "captions": "Field Report",
     "date": "January 2016",
     "hreff": "/projects/fieldreport"
-  },
-  {
-    "group": "visual",
-    "project": "mihalk",
-    "bckimg": "/images/mihalk.png",
-    "title": "Desktop Fan Art",
-    "captions": "browser",
-    "date": "October 2018",
-    "hreff": "/projects/mihalk"
   }
 ]
